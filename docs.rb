@@ -49,7 +49,12 @@ class Docs
 	  guidesFiles.each do |fileName|
 	    basename = fileName.gsub(@@guidesfolder,'')
 	    parent = Pathname(fileName.gsub(basename,'')).each_filename.to_a.last
-	    hash_key = parent + "-"+ basename.gsub('/','-')
+	    if(parent == AppConfig['guides_md'].gsub("/",""))
+	    	prefix = ""
+	    else
+	    	prefix = parent + "-"
+	    end
+	    hash_key = prefix + basename.gsub('/','-')
 	  	md = File.read(fileName)
 	    if md.match(/#(.*)$/).nil? 
 	    	title = basename.gsub('.md','')
@@ -57,7 +62,7 @@ class Docs
 		    title = md.match(/#(.*)$/)[1]
 	    end
 		
-	    puts "\nProcessing Guide: #{title} in #{basename}"
+	    puts "\nProcessing Guide: #{title} in #{basename} #{parent} #{AppConfig['guides_md']}"
 
 	    md = replace_url md
 	    md = replace_images md
