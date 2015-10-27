@@ -365,7 +365,7 @@ function loadDoc(key){
 	}
 	else
 	{
-		html = converter.makeHtml(getByKey('guide-about').md);
+		html = converter.makeHtml(getByKey('about').md);
 	}
 
 	//change code blocks
