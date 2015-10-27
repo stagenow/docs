@@ -15,7 +15,7 @@ The Audio Volume UI Manager feature allows you to manage enhanced audio volume c
 
 ### Mute/Vibrate State
 
-Select whether to mute the device or set the device to vibrate
+Select whether to mute the device or set the device to vibrate.
 
 * **Mute** - Turn off sounds
 * **Vibrate** - Turn off sounds and turn on vibrate
@@ -39,6 +39,7 @@ Specify the Current Profile action to perform.
 ### Audio UI Profile Action
 
 Add an Audio UI Profile 
+
 Modify the following settings to customize your new Audio UI Profile. You do **not** need to provide values for all fields, only those you wish to modify.
 
 * **Name of the Audio UI Profile** - Provide a name to identify this profile

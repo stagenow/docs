@@ -3,7 +3,7 @@
 ## About Status
 
 ### Overview
-The Status Manager sends the status of various staging CSPs.
+The Status Manager setting type sends the status of various staging CSPs.
 
 ### Main Functionality
 

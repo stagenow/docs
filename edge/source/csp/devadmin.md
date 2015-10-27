@@ -18,10 +18,25 @@ The Device Admin setting type allows your application to manage configuration se
   * 5 Minutes after Display Timeout
   * 10 Minutes after Display Timeout
   * 30 Minutes after Display Timeout
-* Allow Application Installs from Unknown sources
-* Disable the Installation of Application from Unknown sources
-* Turn on Device Administrator
-* Turn off Device Administrator
+* Allow/Disallow Application Installs from Unknown sources
+* Turn on/off Device Administrator
+
+##Parameter Notes
+
+### Screen-Lock Timeout
+This option sets the amount of time a device can be idle before the screen locks.
+
+### Application Installs from Unknown Sources
+This option allows control of installation of applications from unknown sources. Installation methods considered unknown are:
+
+* Install from ADB
+* Download and install from locations other than Google Play
+* Receive and install from email
+* Install via APIs
+* Install via File Browser for packages obtained in various ways, e.g., from an SD card, via USB (UMS, ADB, etc.) or any other wired data connection.
+
+### Device Administrator
+An Android application that uses Android Device Admin APIs must be added to a Device Admin list on a device. This option allows adding or removing an application from the Device Admin list. Provide the package name of the application to add as a Device Admin. You can also specify a class name for the application.
 
 
 ## Feature Compatibility

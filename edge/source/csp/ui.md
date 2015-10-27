@@ -8,56 +8,63 @@ The UI Manager setting type manages UI configurations using its UI Manager param
 
 ### Main Functionality
 
-* Enable Clipboard
-* Disable Clipboard
+* Enable/Disable Clipboard
 * Clear Clipboard 
-* Enable Auto Correct
-* Disable Auto Correct
-* Enable Home Key
-* Disable Home Key
-* Enable Bluetooth Paring Popup
-* Disable Bluetooth Paring Popup
-* Set Curent Local 
-  * Canada
-  * Canada French
-  * China 
-  * Chinese
-  * English 
-  * France
-  * French
-  * German
-  * Germany
-  * Italian
-  * Italy
-  * Japan
-  * Japanese
-  * Korea
-  * Korean
-  * PRC
-  * Simplified Chinese
-  * Taiwan 
-  * Traditional Chinese
-  * UK
-  * US
+* Enable/Disable Auto Correct
+* Enable/Disable Home Key
+* Enable/Disable Bluetooth Pairing Popup
+* Set Current Locale 
 * Set Default Input Method 
-  * English (US)
-  * Japanese
-  * Chinese (China)
-  * User Defined Input Method
+
 
 ##Parameter Notes
 ### Clipboard
-Specify whether to allow the use of the clipboard.
+This feature enables or disables the device clipboard.
 
-* Do not change
-* Enable
-* Disable
+### Clear Clipboard
+This feature clears the device clipboard.
 
-### Clear Clipboard?
-This check box specifies whether to clear the clipboard.
+### Auto Correct
+This feature enables or disables the device Auto Correct feature.
 
-* Enable: Clear the clipboard.
-* Disable: Don't clear the clipboard.
+### Home Key
+This feature enables or disables the device Home Key.
+
+### Bluetooth Pairing Popup
+
+
+### Set Current Local
+This feature sets the device locale to one of the following values:
+ 
+* Canada
+* Canada French
+* China 
+* Chinese
+* English 
+* France
+* French
+* German
+* Germany
+* Italian
+* Italy
+* Japan
+* Japanese
+* Korea
+* Korean
+* PRC
+* Simplified Chinese
+* Taiwan 
+* Traditional Chinese
+* UK
+* US
+
+### Set Default Input Method
+This feature sets the device input method to one of the following values:
+
+* English (US)
+* Japanese
+* Chinese (China)
+* User defined input method
 
 
 ## Feature Compatibility

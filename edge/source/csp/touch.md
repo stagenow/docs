@@ -4,7 +4,7 @@
 
 ### Overview
 
-Touch Manager setting type sets the Touch Mode on your device in order to interact with User Interface.
+Touch Manager setting type sets the Touch Mode on the device in order to interact with the user interface.
 
 ### Main Functionality
 
@@ -13,7 +13,7 @@ Touch Manager setting type sets the Touch Mode on your device in order to intera
 
 ##Parameter Notes
 ### TouchAction
-Specify Touch Mode to interact with User Interface on the device.
+Specify Touch Mode to interact with the user interface on the device.
 
 * Do not change - Keep the existing Touch Mode settings.
 * Stylus and Finger - Set the Touch Mode to Stylus and Finger.

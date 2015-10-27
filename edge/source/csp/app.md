@@ -4,7 +4,7 @@
 
 ### Overview
 
-The App Manager setting type allows you to install, upgrade, remove, enable, disable applications from the device. It also allows you to change the current application launcher, clear recent app list and much more.
+The App Manager setting type allows you to install, upgrade, remove, enable, and disable applications from the device. It also allows you to change the current application launcher, clear the recent app list, and more.
 
 ### Main Functionality
 
@@ -30,17 +30,17 @@ This installs the specified application. The application must not exists on the 
 ### Uninstall Application 
 This removes the specified application from the device.
 
-* Package Name: Provide the Android package name of the application ex: 'com.mycompany.mypackage'
+* Package Name - Provide the Android package name of the application ex: 'com.mycompany.mypackage'
 
 ### Upgrade Application
 This upgrades/downgrades the specified application. The application must already exist on the device or you  receive an error (Use the Install parameter instead.
 
-* APK Path and Name: Must be the full path to the APK that will reside on the device. ex: '/storage/sdcard1/Herald.apk'
+* APK Path and Name - Must be the full path to the APK that will reside on the device. ex: '/storage/sdcard1/Herald.apk'
 
 ### Default Launcher
 You can provide a different application launcher to enable. The launcher application must reside on the device already.
 
-* Package Name: Provide the Android package name of the application ex: 'com.mycompany.mypackage'
+* Package Name - Provide the Android package name of the application ex: 'com.mycompany.mypackage'
 
 ### Enable & Disable Application
 Provide a package name of the applications that you want to enable or disable. Disabling an application disables the ability to launch the application.

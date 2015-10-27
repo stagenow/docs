@@ -34,8 +34,11 @@ The Access Manager setting type configures a set of applications that are allowe
 ###System Settings Access
 >Note: This setting is available when the operation mode is `Single User With Whitelist`
 
-1. Full Access - The device's System Settings Menu are not reduced
-2. Reduced Access - The device's System Settings menu are reduced to a pre-selected group of options (Display, Volume, About)
+* Full Access - The device's System Settings Menu are not reduced
+* Reduced Access - The device's System Settings menu are reduced to a pre-selected group of options (Display, Volume, About)
+
+### Application Verification
+Application Verification adds another level of security to Whitelist applications beyond verifying a package name. If you provide a signature for the package, the Whitelist only allows that exact package signature to launch.
 
 ### Delete Packages
 Options for deleting packages from the Whitelist

@@ -4,26 +4,30 @@
 
 ### Overview
 
-Settings Manager setting type manages settings UI configuration by providing the ability to invoke Enterprise Reset in the Settings UI of the device.
+Settings Manager setting type manages setting UI configuration by providing the ability to invoke Enterprise Reset in the Settings application of the device.
 
 ### Main Functionality
 
-* Enable the Ability to Perform an Enterprise Reset from the Settings Menu
-* Disable the Ability to Perform an Enterprise Reset from the Settings Menu
-* Enable the Ability to turn Wi-Fi on or off from the Settings Menu
-* Disable the Ability to turn Wi-Fi on or off from the Settings Menu
-* Enable the Ability to turn Install Apps from Unknown Sources on or off from the Settings Menu
-* Disable the Ability to turn Install Apps from Unknown Sources on or off from the Settings Menu
-* Enable the Ability to to turn Airplane Mode on or off from the Settings Menu
-* Disable the Ability to to turn Airplane Mode on or off from the Settings Menu
+* Enable/Disable the Ability to Perform an Enterprise Reset from the Settings menu
+* Enable/Disable the Ability to turn Wi-Fi on or off from the Settings menu
+* Enable/Disable the Ability to turn Install Apps from Unknown Sources on or off from the Settings menu
+* Enable/Disable the Ability to turn Airplane Mode on or off from the Settings menu
 
 ##Parameter Notes
-### Ability to invoke Enterprise Reset in Settings UI
-Specify whether the ability to invoke Enterprise Reset in Settings UI is allowed on your device.
+### Enterprise Reset
+Enable or disable the ability to access the Enterprise Reset option in the Settings application on the device.
 
-* Do not change
-* Enable
-* Disable
+### Wi-Fi
+Enable or disable the ability to access the Wi-Fi option in the Settings application on the device.
+
+### Unknown Sources
+Enable or disable the ability to access the Install Apps from Unknown Sources option in the Settings application on the device.
+
+### Airplane Mode
+Enable or disable the ability to access the Airplane Mode option in the Settings application on the device.
+
+### Access Applications
+Enable or disable the ability to access the Applications option in the Settings application on the device.
 
 
 ## Feature Compatibility

@@ -8,12 +8,20 @@ The Camera Manager setting type allows your application to control access to the
 
 ### Main Functionality
 
-* Enable the use of all Cameras
-* Disable the use of all Cameras
-* Enable the use of the Front Camera
-* Disable the user of the Front Camera
-* Enable the use of the Rear Camera
-* Disable the user of the Rear Camera
+* Enable/disable the use of all Cameras
+* Enable/disable the use of the Front Camera
+* Enable/disable the use of the Rear Camera
+
+##Parameter Notes
+
+### All Cameras
+This option enables or disables both the front and rear cameras on a device.
+
+### Front Camera
+This option enables or disables the front camera.
+
+### Rear Camera
+This option enables or disables the rear camera.
 
 
 ## Feature Compatibility

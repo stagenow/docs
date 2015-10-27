@@ -4,18 +4,16 @@
 
 ### Overview
 
-The Display Manager setting type allows your application to control the web browser on the device. For example you can set the screen timeout value. 
+The Display Manager setting type controls the screen timeout value to conserve power. 
 
 ### Main Functionality
 
 * Set the Screen Timeout Interval
- * 15 Seconds 
- * 30 Seconds
- * 1 Minute
- * 2 Minutes
- * 5 Minutes
- * 10 Minutes
- * 30 Minutes
+
+##Parameter Notes
+
+###Screen Timeout Interval
+This feature sets how many seconds a device can be inactive before the screen turns off.
 
 
 ## Feature Compatibility

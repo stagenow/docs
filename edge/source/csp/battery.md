@@ -13,12 +13,12 @@ Zebra's device batteries store information in internal memory, for instance the 
 ##Parameter Notes
 
 ### Smart Battery Threshold
-Use this setting to modify the Decommissioned Threshold for Zebra Smart Batteries.
+Use this feature to modify the Decommissioned Threshold for Zebra Smart Batteries.
 
 * Set the threshold value of the Battery Usage Number as an integer ranging from 0 to 65535 (value 0 for no change or not applicable).
 
 ### Gifted Battery Threshold
-Use this setting to modify the Decommissioned Threshold for Zebra Gifted Batteries.
+Use this feature to modify the Decommissioned Threshold for Zebra Gifted Batteries.
 
 * Set the threshold value of the Battery Health Percentage as an integer ranging from 0 to 100 (value 0 for no change or not applicable)
 

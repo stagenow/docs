@@ -4,12 +4,11 @@
 
 ### Overview
 
-The SdCard Manager setting type allows your application to manage the use of the devices SD card.
+The SdCard Manager setting type allows your application to manage the use of the device SD card.
 
 ### Main Functionality
 
-* Enable SdCard
-* Disable SdCard
+* Enable/Disable SdCard
 
 
 ## Feature Compatibility

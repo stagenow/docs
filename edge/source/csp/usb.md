@@ -1,86 +1,42 @@
-# Usb
+# USB
 
-## About Usb
+## About USB
 
 ### Overview
 
-The USB Manager setting type manages USB configurations of your device.
+The USB Manager setting type manages USB configurations of the device.
 
 ### Main Functionality
 
-* Enable USB Usage
-* Disable USB Usage
-* Enable External USB Storage
-* Disable External USB Storage
-* Enable ADB (Android Debug Bridge) Over USB
-* Disable ADB (Android Debug Bridge) Over USB
-* Enable Device Storage Access over USB
-* Disable Device Storage Access over USB
-* Enable the Ability to Access the Device Using USM (USB Mass Storage) Mode
-* Disable the Ability to Access the Device Using USM (USB Mass Storage) Mode
-* Enable the Ability to Access the Device Using MTP (Media Transfer Protocol) Mode
-* Disable the Ability to Access the Device Using MTP (Media Transfer Protocol) Mode
-* Enable the Ability to Access the Device Using PTP (Picture Transfer Protocol) Mode
-* Disable the Ability to Access the Device Using PTP (Picture Transfer Protocol) Mode
+* Enable/Disable USB Module Usage
+* Enable/Disable External USB Storage
+* Enable/Disable ADB (Android Debug Bridge) Over USB
+* Enable/Disable Device Storage Access over USB
+* Enable/Disable the Ability to Access the Device Using USM (USB Mass Storage) Mode
+* Enable/Disable the Ability to Access the Device Using MTP (Media Transfer Protocol) Mode
+* Enable/Disable the Ability to Access the Device Using PTP (Picture Transfer Protocol) Mode
 
 ##Parameter Notes
 ### USB Module Usage
-Specify whether to allow the use of the USB module.
-
-* Do not change
-* Enable
-* Disable
+This feature allows the use of external USB modules such as a bar code scanner module. Disabling this feature disables the use of any USB module attached to the device.
 
 ### USB External Storage Usage
->Note: This feature is supported on devices running KitKat versions of Android, such as the TC70.
-Specify whether to allow the use of USB external storage.
+This feature allows the device to access data from an external USB mass storage device such as a flash drive through an OTG cable. Disabling this prevents access to an attached USB mass storage device.
 
-* Do not change
-* Enable
-* Disable
+### ADB over USB
+This feature allows ADB (Android Debug Bridge) access to a device from an external workstation via USB. Disabling this prevents ADB connections to a device.
 
-### USB ADB Usage
-Specify whether to allow the use of ADB Mode.
+### Device Storage Access over USB
+This feature allows access to device storage via protocols such as USM, MTP and PTP. Disabling this restricts any access to device storage via USB.
 
-* Do not change
-* Enable
-* Disable
+### USB Mass Storage Mode
+Enable USM protocol to allow an external workstation to mount device storage, which disables device access to that storage until unmounted. Device Storage Access over USB must first be enabled.
 
-### Access device storage from PC via USB
->Note: This feature is supported on devices running KitKat versions of Android, such as the TC70.
+### Media Transfer Protocol Mode
+Enable MTP protocol to allow an external workstation to access device storage without blocking device access to that storage. Device Storage Access over USB must first be enabled.
 
-Specify whether to allow all methods to access device storage from PC via USB (e.g. UMS, MTP, PTP).
-
-* Do not change - Configure methods individually (Ex. UMS, MPT, PTP) to access device storage from PC via USB.
-* Enable
-* Disable
-
-### Access device storage from PC via USB UMS
->Note: This feature is supported on devices running KitKat versions of Android, such as the TC70.
-
-Specify whether to allow access to device storage from the PC via USB UMS.
-
-* Do not change
-* Enable
-* Disable
-
-### Access device storage from PC via USB MTP
->Note: This feature is supported on devices running KitKat versions of Android, such as the TC70.
-
-Specify whether to allow access to device storage from the PC via USB MTP.
-
-* Do not change
-* Enable
-* Disable
-
-### Access device storage from PC via USB PTP
->Note: This feature is supported on devices running KitKat versions of Android, such as the TC70.
-
-Specify whether to allow access to device storage from the PC via USB PTP.
-
-* Do not change
-* Enable
-* Disable
+### Picture Transfer Protocol Mode
+Enable PTP protocol to allow an external workstation to access device storage without blocking device access to that storage. Device Storage Access over USB must first be enabled.
 
 
 ## Feature Compatibility

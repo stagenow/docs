@@ -9,10 +9,19 @@ The Browser Manager setting type allows your application to control the web brow
 ### Main Functionality
 
 * Set Default homepage
-* Turn on Remember Password
-* Turn off Remember Password
-* Turn on save form data
-* Turn off save form data
+* Turn on/off Remember Password
+* Turn on/off save form data
+
+##Parameter Notes
+
+### Set Default Homepage
+When entering a URL for the homepage, limit the string to 2000 characters.
+
+### Remember Password
+The Android browser can save and recall values placed in a password field. This parameter enables or disables the browser password save/recall feature.
+
+### Save Form Data
+The Android browser can save and recall values placed into form fields. This parameter enables or disables the browser form field save/recall feature.
 
 
 ## Feature Compatibility

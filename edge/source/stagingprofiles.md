@@ -20,7 +20,7 @@ The staging administrator uses the provided StageNow Wizards to configure settin
 
 * [Review](../stagingprofiles?Review) - The Review section presents all setting information entered in the Config and Deployment sections in a single page. The administrator can add comments, complete the profile, or return to any setting to update it.
 
-* [Publish](../stagingprofiles?Publish) - The Publish section allows the administrator to select the method of delivery (linear bar codes, PDF417 bar codes, and/or NFC tags) for the completed profile, as well as test, publish, and stage the profile.
+* [Publish](../stagingprofiles?Publish) - The Publish section allows the administrator to select the method of delivery (linear bar codes, PDF417 bar codes, NFC tags, or Audio file) for the completed profile, as well as test, publish, and stage the profile.
 
 ### Profile States
 As you progress through the Wizard, the top right corner of the window reflects the state of the profile: 
@@ -157,13 +157,15 @@ This window lists the profile delivery types available, with dates and times of 
 
 To publish a profile:
 
-1. Select the appropriate checkboxes for the desired bar code types, or select an NFC tag, for deployment.
+1. Select the appropriate checkboxes for the desired bar code types, an NFC tag, or an audio file for deployment.
 
 2. Select Test to test the functionality of the profile before publishing. This generates a PDF of test staging bar code(s). While this step is optional, it is important to determine whether the profile functions as intended before making it available to the operator(s) for staging devices.
 
     ![img](images/SNBarCode_Test.jpg)
 
-3. If the staging material functions properly, select Publish to publish the material for operator use. Note that the administrator can choose to publish only certain types of bar codes and/or NFC tags that were successfully tested, and publish the others when they are ready.
+3. If using an audio file for staging, select Play Audio to test the functionality of the Audio profile before publishing. 
+
+4. If the staging material functions properly, select Publish to publish the material for operator use. Note that the administrator can choose to publish only certain types of bar codes, NFC tags, and/or audio files that were successfully tested, and publish the others when they are ready.
 
 4. Enter staging instructions for the operator, and select Publish Now.
 
