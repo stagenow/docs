@@ -8,7 +8,7 @@ var menuStrcture = [
 				link: '#about',
 			},		
 			{
-				name: 'Getting Started',
+				name: 'Getting Started', 
 				icon: 'fa fa-pencil',
 				link: '#gettingstarted',
 				

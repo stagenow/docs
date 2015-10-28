@@ -1,10 +1,9 @@
 # About This Help
 
-StageNow 2.2 User Guide, Revision A.1
+StageNow 2.2 User Guide, Revision .1
 
 ## Introduction
 This help file provides the staging administrator instructions on using StageNow 2.1 to create profiles to use for staging devices.
-Test text
 
 ## Supported Web Browsers
 

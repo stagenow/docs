@@ -1,6 +1,6 @@
 # About This Help
 
-StageNow 2.1 User Guide, Revision .2
+StageNow 2.1 User Guide, Revision A
 
 ## Introduction
 This help file provides the staging administrator instructions on using StageNow 2.1 to create profiles to use for staging devices.
