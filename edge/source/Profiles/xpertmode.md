@@ -17,7 +17,7 @@ To create an Xpert Mode profile:
 
 4. Enter a name for the profile and select Start (does this take you to the Add/Edit Settings/Wizards screen???).
 
-    ![img](images/profiles/xpertmode_???.jpg)
+    ![img](images/profiles/xpertmode_settings.jpg)
 
     Note: During profile creation, the top right of the window indicates the status of the profile, e.g., Incomplete.
 
