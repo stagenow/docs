@@ -14,9 +14,9 @@ The staging administrator uses the provided StageNow Wizards to configure settin
 
 ![img](images/banner.jpg)
 
-* [Config](../stagingprofiles?Configure) (StageNow and RD) - The setting information entered in the StageNow Config section is stored within StageNow bar codes and NFC tags.  The setting information entered in the RD Config section is stored within RD bar codes.  Note that the RD Config section only appears if you turned on Legacy Mode in the [Settings](../gettingstarted?Settings) screen. The amount of settings created in this section affect the number of bar codes and/or NFC tags that the system generates later.
+* [Config](../stagingprofiles?Configure) (StageNow and RD) - The setting information entered in the StageNow Config section is stored within StageNow bar codes, NFC tags, and/or an audio file.  The setting information entered in the RD Config section is stored within RD bar codes.  Note that the RD Config section only appears if you turned on Legacy Mode in the [Settings](../gettingstarted?Settings) screen. The amount of settings created in this section affect the number of bar codes and/or NFC tags that the system generates later.
 
-* [Deployment](../stagingprofiles?Deployment) - This information includes settings that do not reside in StageNow bar codes or NFC tags, and is represented as a file on the StageNow deployment server and so requires network connection. Reading the bar code or NFC tag created in the Config section connects the client device to the server and points to this file for deployment. Note that this section does NOT appear in the Connect Network, Manage Device Security, and Wipe a Device Wizards.
+* [Deployment](../stagingprofiles?Deployment) - This information includes settings that do not reside in StageNow bar codes, NFC tags, or audio file, and is represented as a file on the StageNow deployment server and so requires network connection. Reading the bar code or NFC tag, or playing an audio file created in the Config section connects the client device to the server and points to this file for deployment. Note that this section does NOT appear in the Connect Network, Manage Device Security, and Wipe a Device Wizards.
 
 * [Review](../stagingprofiles?Review) - The Review section presents all setting information entered in the Config and Deployment sections in a single page. The administrator can add comments, complete the profile, or return to any setting to update it.
 
@@ -35,7 +35,7 @@ As you progress through the Wizard, the top right corner of the window reflects 
 
 * Published - The profile is visible to the operator.
 
-* Staged - The operator has acquired the profile, i.e., generated bar codes or exported data to write to an NFC tag for staging the device.
+* Staged - The operator has acquired the profile, i.e., generated bar codes, exported data to write to an NFC tag, or downloaded the audio file for staging the device.
 
 ### Navigating the Wizard
 Following are tips for navigating through the Wizard.
@@ -157,17 +157,21 @@ This window lists the profile delivery types available, with dates and times of 
 
 To publish a profile:
 
-1. Select the appropriate checkboxes for the desired bar code types, an NFC tag, or an audio file for deployment.
+1. Select the tab for the desired staging material (Barcode, Audio, or NFC). 
 
-2. Select Test to test the functionality of the profile before publishing. This generates a PDF of test staging bar code(s). While this step is optional, it is important to determine whether the profile functions as intended before making it available to the operator(s) for staging devices.
+2. Select the appropriate checkboxes, if applicable, to specify the type of material for deployment.
+
+3. Select Test to test the functionality of the profile before publishing. While this step is optional, it is important to determine whether the profile functions as intended before making it available to the operator(s) for staging devices.
+
+For bar code staging, this generates a PDF of test staging bar code(s). 
 
     ![img](images/SNBarCode_Test.jpg)
 
-3. If using an audio file for staging, select Play Audio to test the functionality of the Audio profile before publishing. 
+If using an audio file for staging, select Play Audio to test the functionality of the Audio profile before publishing. 
 
 4. If the staging material functions properly, select Publish to publish the material for operator use. Note that the administrator can choose to publish only certain types of bar codes, NFC tags, and/or audio files that were successfully tested, and publish the others when they are ready.
 
-4. Enter staging instructions for the operator, and select Publish Now.
+5. Enter staging instructions for the operator, and select Publish Now.
 
     ![img](images/ConnectNetwork_Publish_Instructions.jpg)
 
@@ -206,24 +210,66 @@ To edit a profile:
 
 5. Select Continue and proceed through the Wizard.
 
-6. In the Review section, select Complete Profile to move to the Publish section to generate updated bar codes or NFC tags.
+6. In the Review section, select Complete Profile to move to the Publish section to generate updated bar codes, NFC tags, or audio files.
 
-## Importing/Exporting a Staging Profile
+## Importing a Staging Profile
 
-To import a profile, select the Import Profile button to import a profile for use. ![img](images/importprofile1.jpg)
+To import a profile:
 
-![img](images/importprofile2.jpg)
+1. Select All Profiles.
 
-Select a file using the browse button next to Select a file to import, enter a name and description for the profile, and select Import.
+    ![img](images/AllProfiles.jpg)
+
+2. Select the Import Profile button.
+
+    ![img](images/importprofile1.jpg)
+
+3. Select a file using the browse button, and select Import. A window indicates that the profile was imported successfully.
 
 Profiles created in StageNow 2.0 are imported as MX 4.3 profiles.
 
+Note: RD settings are not exported and so cannot be imported.
 
-To export a profile, select the Export icon next to the profile to export a profile for other administrators to use. ![img](images/icon_export.jpg)
+## Exporting Staging Profiles
 
-Select a location for the profile and select Save.
+To export a single profile for other administrators to use:
+
+1. Select the Export icon next to the profile. ![img](images/icon_export.jpg)
+
+    ![img](images/Export_hidden.jpg)
+
+2. To hide profile details from other administrators, select the check box.
+
+3. Select OK.
+
+4. Select a location for the profile and select Save. A window indicates that the profile was exported successfully.
+
+5. Select OK.
 
 Note: RD settings are not exported and so cannot be imported.
+
+### Exporting All Profiles
+
+To export all staging profiles:
+
+1. Select All Profiles.
+
+    ![img](images/AllProfiles.jpg)
+
+2. Select the Export All Profiles button.
+
+    ![img](images/Export_hidden.jpg)
+
+3. To hide profile details from other administrators, select the check box.
+
+4. Select OK.
+
+    ![img](images/Export_allzip.jpg)
+
+5. The default name for the zip file containing all profiles is MULTI_PROFILES.ZIP. Select a location for the profile and select Save. A window indicates that the profile was exported successfully.
+
+6. Select OK.
+
 
 ## Deleting a Staging Profile
 

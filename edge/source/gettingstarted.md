@@ -9,7 +9,7 @@ Staging is the process where a device administrator or operator configures a dev
 An administrator can stage all devices within an enterprise, devices in a particular store or site, or on-site/per user.
 
 ## StageNow Staging Solution
-StageNow is Zebra's next generation Android Staging Solution, supporting KitKat and Jelly Bean and built on the MX 4.3/4.4 platform. It allows simple profile creation, and easy device deployment with a simple bar code scan or tag read.
+StageNow is Zebra's next generation Android Staging Solution, supporting KitKat and Jelly Bean and built on the MX 4.3/4.4/5.0 platform. It allows simple profile creation, and easy device deployment with a simple bar code scan or tag read.
 
 The StageNow Staging Solution includes the following components:
 
@@ -22,7 +22,7 @@ The StageNow Staging Solution includes the following components:
 ### Devices Supported
 StageNow supports all KitKat and Jelly Bean Android devices from Zebra. KitKat devices that ship with the StageNow Client installed support all StageNow features.
 
-Jelly Bean and certain KitKat devices may not include the StageNow Client but do include Rapid Deployment (RD) Client. For staging, these devices can scan StageNow-generated RD bar codes, which cause the RD Client to connect to a network and then auto-install MX 4.4 and the StageNow Client on the device. The StageNow Client can then be used to scan StageNow profile bar codes for configuration. See [Rapid Deployment (RD) Client](../stageclient?Rapid%20Deployment%20(RD)%20Client) for more information on this process.
+Jelly Bean and certain KitKat devices may not include the StageNow Client but do include Rapid Deployment (RD) Client. For staging, these devices can scan StageNow-generated RD bar codes, which cause the RD Client to connect to a network and then auto-install MX 5.0 and the StageNow Client on the device. The StageNow Client can then be used to scan StageNow profile bar codes for configuration. See [Rapid Deployment (RD) Client](../stageclient?Rapid%20Deployment%20(RD)%20Client) for more information on this process.
 
 Once devices that did not include the StageNow Client are staged using the RD Client, they still may only support partial StageNow functionality due to limitations of the device OS. See the Feature Compatibility section of the specific [Setting Type](../CSPreference) to determine if your device supports a given feature. 
 
@@ -40,6 +40,8 @@ Following are the staging methods available via StageNow. See [Device Staging](.
 
 * NFC Tag - The operator exports profile data and programs it into an NFC tag, then reads the tag with the device's NFC tag reader by bringing the tag within a certain proximity of the device, to deploy the profile to the device.
 
+* Audio File - The operator downloads an audio file containing profile data to the device, and plays the audio file to configure that device.
+
 ## Home Screen
 To open the tool, select the StageNow icon from the Start menu. 
 
@@ -47,7 +49,7 @@ If published profiles are available, the Staging Operator home screen appears.
 
 ![img](images/Homescreen_operator.jpg)
 
-The Operator home screen lists favorite, latest staged, and latest published profiles. The top-right corner of the screen shows the [IP Address](../gettingstarted?Current%20IP%20Address) currently used (if any), useful for when you need to connect to the Staging Server.
+The Operator home screen lists the latest profiles available. The top of the screen shows the [IP Address](../gettingstarted?Current%20IP%20Address) currently used (if any), useful for when you need to connect to the Staging Server.
 
 The main sections of this window include the following fields:
 
@@ -61,9 +63,9 @@ The main sections of this window include the following fields:
 
 * Latest Staged - The last time the profile was staged.
 
-* RD - Indicates whether the profile is RD enabled, i.e., whether RD bar codes can be printed from this profile.
-
 * MX Version - The version of MX used when creating the profile.
+
+* RD - Indicates whether the profile is RD enabled, i.e., whether RD bar codes can be printed from this profile.
 
 If there are no published profiles for the Staging Operator, the Welcome screen appears.
 
@@ -78,7 +80,7 @@ Enter the Administrator password set up during installation, and select Login to
 The Administrator home screen lists profiles grouped by stages of completion. 
 
 ### Current IP Address
-The top-right corner of the screen shows the IP address currently used, useful for when you need to connect to the Staging Server.
+The top of the screen shows the IP address currently used, useful for when you need to connect to the Staging Server.
 
 If only one IP address is available, StageNow selects this.
 
@@ -89,6 +91,22 @@ If more than one IP address is available and neither is selected, the Current IP
 ![img](images/AvailableIPAddresses.jpg)
 
 Select the IP, then select Set as Current. This IP address is retained in future operations, including after re-launch and system reboot. 
+
+### Change Password
+The top right corner of the screen offers an option to change the Administrator password.
+
+Select Change Password to change the administrator password.
+
+![img](images/ChangePassword.jpg)
+
+Enter the current password, and then enter the new password in the New Password and Confirm New Password fields.
+
+Select Change. A window indicates that the password was changed successfully.
+
+![img](images/ChangePassword_success.jpg)
+
+Select OK.
+
 
 ### Profile Lists
 The various profile lists in the Home window include the following fields:
@@ -176,7 +194,7 @@ The following table lists the situations in which the server icon would appear, 
 
 
 
-## StageNow Menus
+## StageNow Menu
 The top left corner of the StageNow Workstation Tool window offers the following three menu items.
 
 ### Settings

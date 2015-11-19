@@ -106,3 +106,38 @@ To delete a setting:
     ![img](images/setting_delete.jpg)
 
 3. A window indicates that the setting was successfully deleted. Select OK.
+
+## Exporting Settings
+
+To export all settings:
+
+1. Select All Settings.
+
+    ![img](images/AllSettings.jpg)
+
+2. Select the Export All button.
+
+    ![img](images/Export_allsettings.jpg)
+
+3. The default name for the zip file containing all settings is AllSettings.zip. Select a location for the settings and select Save. A window indicates that the settings were exported successfully.
+
+    ![img](images/Export_allsettings_success.jpg)
+
+4. Select OK.
+
+## Importing Settings
+
+To import all settings:
+
+1. Select All Settings.
+
+    ![img](images/AllSettings.jpg)
+
+2. Select the Import All button.
+
+    ![img](images/importsettings1.jpg)
+
+3. Select a file using the browse button, and select Open.
+
+4. Select Import. A window indicates that the settings were imported successfully.
+
