@@ -29,9 +29,9 @@ This window includes the following fields:
 
 * Actions - Offers the following actions to perform on the setting:
 
-    * Delete ![img](images/icon_trash.jpg) - Delete the setting. Note that you CAN NOT delete settings used in one or more profiles. 
-
     * Copy ![img](images/icon_copy.jpg) - Copy the setting to create a similar setting with a different name.
+
+    * Delete ![img](images/icon_trash.jpg) - Delete the setting. Note that you CAN NOT delete settings used in one or more profiles. 
 
 
 ## Creating a Setting
@@ -53,7 +53,7 @@ To create a setting for use in profiles:
 6. Select Save. This adds the setting to the Settings list.
 
 ### Save for Reuse
-After completing a Setting screen within a Wizard, select the Save Setting for Re-use check box to make this setting available for subsequent profile creation in the same or other Wizards. Enter a Name for the setting. This is useful when creating multiple profiles that will use the same setting, e.g., if many profiles need to access the same network (Wi-Fi setting). This avoids unnecessary re-entry, as well as eliminates mistakes, and if the definition of the setting changes, the administrator can change it in one place instead of many.
+After completing a Setting screen within a Profile Wizard, select the Save Setting for Re-use check box to make this setting available for subsequent profile creation in the same or other Wizards. Enter a Name for the setting. This is useful when creating multiple profiles that will use the same setting, e.g., if many profiles need to access the same network (Wi-Fi setting). This avoids unnecessary re-entry, as well as eliminates mistakes, and if the definition of the setting changes, the administrator can change it in one place instead of many.
 
 ![img](images/SaveforReuse.jpg)
 
@@ -84,7 +84,7 @@ To copy a setting:
 
 To edit a setting:
 
-1. Select the setting from the Setting list. If the setting is used in one or more published profiles, selecting any setting field invokes a pop-up requesting that you unpublish the associated profile in order to edit the setting.
+1. Select the setting from the Setting list. If the setting is used in one or more published profiles, these profiles are listed at the bottom of the screen. Selecting any setting field invokes a pop-up requesting that you unpublish the associated profile in order to edit the setting.
 
 
     ![img](images/Settings_Edit_Unpublish.jpg)
@@ -139,5 +139,4 @@ To import all settings:
 
 3. Select a file using the browse button, and select Open.
 
-4. Select Import. A window indicates that the settings were imported successfully.
-
+4. Select Import. A window indicates that the settings were imported successfully and the settings appear in the settings list.

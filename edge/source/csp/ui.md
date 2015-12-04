@@ -33,7 +33,7 @@ This feature enables or disables the device Home Key.
 ### Bluetooth Pairing Popup
 
 
-### Set Current Local
+### Set Current Locale
 This feature sets the device locale to one of the following values:
  
 * Canada

@@ -2,7 +2,9 @@
 
 This window displays the Wizard templates available for creating profiles and allows a Wizard for profile creation. 
 
-The drop-down offers two MX versions for profile creation:
+The drop-down offers three MX versions for profile creation:
+
+* MX 5.0 - Select this for Zebra KitKat devices, which include the StageNow Client.
 
 * MX 4.4 - Select this for Zebra KitKat devices, which include the StageNow Client.
 

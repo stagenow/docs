@@ -123,11 +123,11 @@ The various profile lists in the Home window include the following fields:
 
 * Actions - Offers the following actions to perform on the profile:
 
-    * Delete ![img](images/icon_trash.jpg) - Delete the profile. 
+    * Export ![img](images/icon_export.jpg) - Export a profile for other administrator use.
 
     * Copy ![img](images/icon_copy.jpg) - Copy the profile to create a similar profile with a different name.
 
-    * Export ![img](images/icon_export.jpg) - Export a profile for other administrator use.
+    * Delete ![img](images/icon_trash.jpg) - Delete the profile. 
 
 * RD - Indicates whether the profile is RD enabled, i.e., whether RD bar codes can be printed from this profile.
 
