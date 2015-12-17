@@ -1,6 +1,6 @@
 # About This Help
 
-StageNow 2.2 User Guide, Revision .2
+StageNow 2.2 User Guide, Revision .3
 
 P/N MN-002672-01
 
@@ -33,26 +33,26 @@ Topics covered in this guide are as follows:
 ## What's New
 The following topics are added or updated for StageNow 2.2:
 
-* [Change Password](../gettingstarted?Change%20Password)
+* [Xpert Mode](../Profiles/xpertmode?Xpert%20Mode)
+
+* [Staging an Audio Profile (Administrator)](../stagingprofiles?Staging%20an%20Audio%20Profile)
+
+* [Selecting an Audio File for Staging (Operator)](../stageclient?Selecting%20an%20Audio%20File%20for%20Staging)
+
+* [Audio Staging Help](../stageclient?Audio%20Staging%20Help)
 
 * [MX 5.0 Support](../stagingprofiles?Configure)
 
-* [Staging an Audio Profile](../stagingprofiles?Staging%20an%20Audio%20Profile)
+* [Manage Enterprise Home Screen (EHS)](../Profiles/xpertmode?Manage%20Enterprise%20Home%20Screen%20(EHS))
 
 * [Exporting All Profiles](../stagingprofiles?Exporting%20All%20Profiles)
-
-* [Xpert Mode](../Profiles/xpertmode?Xpert%20Mode)
-
-* [Manage Enterprise Home Screen (EHS)](../Profiles/xpertmode?Manage%20Enterprise%20Home%20Screen%20(EHS))
 
 * [Exporting Settings](../settingconfig?Exporting%20Settings)
 
 * [Importing Settings](../settingconfig?Importing%20Settings)
 
-* [Selecting an Audio File for Staging](../stageclient?Selecting%20an%20Audio%20File%20for%20Staging)
-
 * [Device Staging](../stageclient?Device%20Staging)
 
 * [StageNow Client Menu](../stageclient?StageNow%20Client%20Menu)
 
-* [Audio Staging Help](../stageclient?Audio%20Staging%20Help)s
+* [Change Password](../gettingstarted?Change%20Password)
