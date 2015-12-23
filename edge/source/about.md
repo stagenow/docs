@@ -1,6 +1,6 @@
 # About This Help
 
-StageNow 2.2 User Guide, Revision .3
+StageNow 2.2 User Guide, Revision 3
 
 P/N MN-002672-01
 
@@ -35,11 +35,11 @@ The following topics are added or updated for StageNow 2.2:
 
 * [Xpert Mode](../Profiles/xpertmode?Xpert%20Mode)
 
-* [Staging an Audio Profile (Administrator)](../stagingprofiles?Staging%20an%20Audio%20Profile)
+* [Staging an Audio Profile (Administrator)](../stagingprofiles?Staging%20an%20Audio%20Profile) (Only supported on StageNow Client 2.2 and later)
 
-* [Selecting an Audio File for Staging (Operator)](../stageclient?Selecting%20an%20Audio%20File%20for%20Staging)
+* [Selecting an Audio File for Staging (Operator)](../stageclient?Selecting%20an%20Audio%20File%20for%20Staging) (Only supported on StageNow Client 2.2 and later)
 
-* [Audio Staging Help](../stageclient?Audio%20Staging%20Help)
+* [Audio Staging Help](../stageclient?Audio%20Staging%20Help) (Only supported on StageNow Client 2.2 and later)
 
 * [MX 5.0 Support](../stagingprofiles?Configure)
 

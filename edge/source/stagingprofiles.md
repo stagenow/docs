@@ -187,7 +187,7 @@ To stage an audio profile:
 
     ![img](images/Publish_AudioTab_Instructions.jpg)
 
-2. Progress through the instruction screens and select OK to dismiss the tour.
+2. Progress through the instruction screens and select DONE to dismiss the tour.
 
     ![img](images/Publish_AudioTab.jpg)
 
@@ -243,6 +243,9 @@ To copy a profile in order to create a new, similar profile:
 
 ## Editing a Staging Profile
 
+>Note:  
+>In-progress profiles created in StageNow 2.0 may not function after upgrading to the latest StageNow Tool.
+
 To edit a profile:
 
 1. Select the profile from the home screen. 
@@ -260,6 +263,9 @@ To edit a profile:
 6. In the Review section, select Complete Profile to move to the Publish section to generate updated bar codes, NFC tags, or audio files.
 
 ## Exporting Staging Profiles
+
+>Note:  
+>Incomplete profiles cannot be exported.
 
 To export a single profile for other administrators to use:
 

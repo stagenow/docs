@@ -36,7 +36,7 @@ This method of staging writes the configuration information from the selected pr
 
 1. Select the Audio tab. If this is the first time using this feature, a tour provides help screens that specify technical and environmental requirements for audio staging. 
 
-2. Progress through the instruction screens and select OK to dismiss the tour.
+2. Progress through the instruction screens and select DONE to dismiss the tour.
 
    ![img](images/operator2b.jpg)
 
@@ -66,6 +66,9 @@ The application lists the available staging methods.
 
 ![img](images/Client_Staging_Menu.jpg)
 
+>Note:  
+>MC40 devices do not support NFC, and display the following text for NFC Staging section: Unavailable, No NFC Reader Detected.
+
 
 ### Bar Code Staging
 To deploy the selected profile to the device via staging bar codes:
@@ -75,13 +78,13 @@ To deploy the selected profile to the device via staging bar codes:
    ![img](images/Client_StageBarcode2.jpg)
 
 
-2. The screen indicates the number of bar codes left to scan. Continue scanning all staging bar codes.
+2. The screen indicates the bar codes scanned via a check mark, and the bar codes left to scan. Continue scanning all staging bar codes.
 
 Upon successful deployment, the device displays the following screen.
 
 ![img](images/Client_StageBarcode_Success.jpg)
 
-If errors occur during deployment, see [Log Settings](../stageclient?Log%20Settings) for troubleshooting.
+If errors occur during deployment, the following pop-up appears. Select Yes to view Logs for troubleshooting.
 
 ![img](images/stagingfailed.png)
 
@@ -102,14 +105,15 @@ To deploy the selected profile to the device via an audio file:
 
    ![img](images/Client_Audio.jpg)
 
-The client attempts up to 5 times to stage. If staging does not occur after the fifth attempt, select Cancel to cancel staging, Try Again to continue the staging attempts, or Help for audio staging tips.
+The client attempts up to 5 times to stage. If staging does not occur after the fifth attempt, there is an error in audio transmission and the following error popup appears. Select Cancel to cancel staging, Try Again to continue the staging attempts, or Help for audio staging tips.
 
    ![img](images/Client_Audio_Failure.jpg)
 
 Upon successful deployment, the device displays the success screen.
 
-If errors occur during deployment, see Logs for troubleshooting.
+If errors occur during deployment, the following pop-up appears. Select Yes to view Logs for troubleshooting.
 
+   ![img](images/Client_Audio_Error.jpg)
 
 ### NFC Staging
 NFC staging requires that the client device is equipped with an NFC reader.
@@ -124,7 +128,10 @@ To deploy the selected profile to the device via NFC tag:
 
 Upon successful deployment, the device displays the success screen.
 
-If errors occur during deployment, see Logs for troubleshooting.
+If errors occur during deployment, the following pop-up appears. Select Yes to view Logs for troubleshooting.
+
+   ![img](images/Client_NFC_Error.jpg)
+
 
 ### Staging Wait Conditions
 The following pop-up screens can appear during staging, indicating the device is performing an operation and that staging will complete when it is done.
@@ -157,8 +164,6 @@ In the StageNow application, select the three vertical dots at the top right of 
 
 ### Log Settings
 If staging fails, a screen appears indicating this.
-
-![img](images/Client_staging_failed2.jpg)
 
 To review the log to determine the cause of the error:
 
