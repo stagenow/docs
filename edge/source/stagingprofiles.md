@@ -285,6 +285,9 @@ Note: RD settings are not exported and so cannot be imported.
 
 ### Exporting All Profiles
 
+>Note:  
+>Incomplete profiles are not exported.
+
 To export all staging profiles:
 
 1. Select All Profiles.
