@@ -1,6 +1,6 @@
 # About This Help
 
-StageNow 2.2 User Guide, Revision 3
+StageNow 2.2 User Guide, Revision A
 
 P/N MN-002672-01
 
@@ -52,6 +52,8 @@ The following topics are added or updated for StageNow 2.2:
 * [Importing Settings](../settingconfig?Importing%20Settings)
 
 * [Device Staging](../stageclient?Device%20Staging)
+
+* [File Manager Archive/Unarchive Feature](../csp/file)
 
 * [StageNow Client Menu](../stageclient?StageNow%20Client%20Menu)
 
