@@ -9,7 +9,7 @@ Staging is the process where a device administrator or operator configures a dev
 An administrator can stage all devices within an enterprise, devices in a particular store or site, or on-site/per user.
 
 ## StageNow Staging Solution
-StageNow is Zebra's next generation Android Staging Solution, supporting KitKat and Jelly Bean and built on the MX 4.3/4.4/5.0 platform. It allows simple profile creation, and easy device deployment with a simple bar code scan, tag read, or audio file play.
+StageNow is Zebra's next generation Android Staging Solution, supporting Lollipop, KitKat, and Jelly Bean and built on the MX 4.3/4.4/5.0/5.1 platform. It allows simple profile creation, and easy device deployment with a simple bar code scan, tag read, or audio file play.
 
 The StageNow Staging Solution includes the following components:
 
@@ -20,7 +20,7 @@ The StageNow Staging Solution includes the following components:
 * The StageNow Client resides on the device and provides a user interface for the staging operator to initiate staging. The operator uses a staging method, e.g., prints and scans a bar code, plays an audio file, or reads an NFC tag, to deliver staging material to the device
 
 ### Devices Supported
-StageNow supports all KitKat and Jelly Bean Android devices from Zebra. KitKat devices that ship with the StageNow Client installed support all StageNow features.
+StageNow supports all Lollipop, KitKat, and Jelly Bean Android devices from Zebra. Lollipop and KitKat devices that ship with the StageNow Client installed support all StageNow features.
 
 Jelly Bean and certain KitKat devices may not include the StageNow Client but do include Rapid Deployment (RD) Client. For staging, these devices can scan StageNow-generated RD bar codes, which cause the RD Client to connect to a network and then auto-install MX 5.0 for KitKat devices, MX 4.4 or lesser for Jelly Bean devices, and the StageNow Client on the device. The StageNow Client can then be used to scan StageNow profile bar codes for configuration. See [Rapid Deployment (RD) Client](../stageclient?Rapid%20Deployment%20(RD)%20Client) for more information on this process.
 
@@ -110,6 +110,60 @@ Select Change. A window indicates that the password was changed successfully.
 
 Select OK.
 
+### Software Update
+If a new StageNow version or updated components are available and the StageNow tools is connected to a network, a message appears below the menu bar indicating this.
+
+![img](images/Update_Available.jpg)
+
+To enable or disable this message, see [Settings](../gettingstarted?Settings) . 
+
+>Note:  
+>Only an Administrator can update to the latest software and components. The administrator can also log out, and then log into the StageNow tool again to check for the latest software or component updates.
+
+Select Learn More for more information on what is new in the latest available version, or what component(s) are available. 
+
+![img](images/Update_LearnMore.jpg)
+
+Select Try Later or X to dismiss this window and the auto-update tool bar.
+
+
+#### StageNow Tool Update
+
+![img](images/Update_Available.jpg)
+
+1. Select Download and Install from the Learn More window, or Install Now on the auto-update tool bar, to upgrade to the later version.
+
+2. If there are incomplete profiles, you must complete them or delete them before the update can occur.
+
+   ![img](images/Update_Error1.jpg)
+
+3. Select Continue on the Installation Confirmation window.
+
+   ![img](images/Update_Confirm.jpg)
+
+4. The auto-update tool bar displays a progress bar, and then indicates the software is installing. Select Yes to the Question pop-up to continue the upgrade.
+
+   ![img](images/Update_Oldversion.jpg)
+
+
+#### Component Update
+
+![img](images/Update_Component.jpg)
+
+Select Download and Install from the Learn More window, or Install Now on the auto-update tool bar, to upgrade the available software components.
+
+The auto-update tool bar displays a progress bar, and then indicates that it is applying component updates. The StageNow tool restarts and updates the components.
+
+#### Update Errors
+
+The following errors can occur during update:
+
+* If the install tool indicates the network was not found, select OK, check the network connection, and re-attempt installation.
+
+* If there is a problem reaching the host server other than a network failure, select Download Again to re-attempt installation.
+
+![img](images/Update_Error2.jpg)
+
 
 ### Profile Lists
 The various profile lists in the Home window include the following fields:
@@ -126,7 +180,7 @@ The various profile lists in the Home window include the following fields:
 
 * Actions - Offers the following actions to perform on the profile:
 
-    * Export ![img](images/icon_export.jpg) - Export a profile for other administrator use.
+    * Export ![img](images/icon_export.jpg) - Export a profile for other administrator use within the StageNow tool, or export for an MDM.
 
     * Copy ![img](images/icon_copy.jpg) - Copy the profile to create a similar profile with a different name.
 
@@ -201,7 +255,7 @@ The following table lists the situations in which the server icon would appear, 
 The top left corner of the StageNow Workstation Tool window offers the following three menu items.
 
 ### Settings
-Selecting Settings in the top left corner of the tool offers three options. 
+Selecting Settings in the top left corner of the tool offers four options. 
 
 ![img](images/HomeSettings.jpg)
 
@@ -230,6 +284,8 @@ Turn this setting on to terminate the staging process upon first error. If left 
 
 * For Xpert Mode, if First Error Termination is on, it only works if the ConditionMgr DSD is present in the profile.
 
+#### Check for software updates automatically
+Turn this setting on to display a message below the menu bar indicating when there is a new StageNow version available. 
 
 ### Help
 This launches the StageNow user guide in the default browser. 

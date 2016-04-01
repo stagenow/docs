@@ -1,11 +1,11 @@
 # About This Help
 
-StageNow 2.2 User Guide, Revision A
+StageNow 2.3 User Guide, Revision A
 
-P/N MN-002672-01
+P/N MN-002672-02
 
 ## Introduction
-This help file provides the staging administrator instructions on using StageNow 2.2 to create profiles to use for staging devices.
+This help file provides the staging administrator instructions on using StageNow 2.3 to create profiles to use for staging devices.
 
 ## Supported Web Browsers
 
@@ -33,28 +33,12 @@ Topics covered in this guide are as follows:
 ## What's New
 The following topics are added or updated for StageNow 2.2:
 
-* [Xpert Mode](../Profiles/xpertmode?Xpert%20Mode)
+* Support for Lollipop devices and MX 5.1
 
-* [Staging an Audio Profile (Administrator)](../stagingprofiles?Staging%20an%20Audio%20Profile) (Only supported on StageNow Client 2.2 and later)
+* [Software Update](../gettingstarted?Software%20Update)
 
-* [Selecting an Audio File for Staging (Operator)](../stageclient?Selecting%20an%20Audio%20File%20for%20Staging) (Only supported on StageNow Client 2.2 and later)
+* [Exporting for an MDM](../stagingprofiles?Exporting%20Staging%20Profiles)
 
-* [Audio Staging Help](../stageclient?Audio%20Staging%20Help) (Only supported on StageNow Client 2.2 and later)
+* [Enrolling in an MDM for MX 5._1](../Profiles/enrollmdm?Enrolling%20in%20an%20MDM%20for%20MX%20Version%205.1)
 
-* [MX 5.0 Support](../stagingprofiles?Configure)
-
-* [Manage Enterprise Home Screen (EHS)](../Profiles/xpertmode?Manage%20Enterprise%20Home%20Screen%20(EHS))
-
-* [Exporting All Profiles](../stagingprofiles?Exporting%20All%20Profiles)
-
-* [Exporting Settings](../settingconfig?Exporting%20Settings)
-
-* [Importing Settings](../settingconfig?Importing%20Settings)
-
-* [Device Staging](../stageclient?Device%20Staging)
-
-* [File Manager Archive/Unarchive Feature](../csp/file)
-
-* [StageNow Client Menu](../stageclient?StageNow%20Client%20Menu)
-
-* [Change Password](../gettingstarted?Change%20Password)
+* [Client Error Logging](../stageclient?StageNow%20Client%20Menu)

@@ -161,19 +161,11 @@ In the StageNow application, select the three vertical dots at the top right of 
 
 ![img](images/Client_Menu.jpg)
 
-
-### Log Settings
 If staging fails, a screen appears indicating this.
 
-To review the log to determine the cause of the error:
+To review the log to determine the cause of the error, select Yes from the staging failure screen, or from the StageNow Client menu, select Last Staging Error.
 
-1. Select Yes from the staging failure screen, or from the StageNow Client menu, select Log Settings.
-
-    ![img](images/Client_LogSettings.jpg)
-
-2. Select View Current Logs.
-
-    ![img](images/Client_StageBarcode_LogSettings_View.jpg)
+![img](images/Client_StageBarcode_LogSettings_View.jpg)
 
 Locate the error(s) in the log. Refer to the characteristic-error or parm-error in the log contents.
 

@@ -177,6 +177,8 @@ To stage a bar code profile:
 
 7. To make the profile available for staging, select Stage. This generates a PDF of staging bar code(s) that devices can scan for staging. See [Device Staging](../stageclient).
 
+8. To export the profile for an MDM or for StageNow, select the Export For MDM or Export For StageNow button. See [Exporting Staging Profiles](../stagingprofiles?Exporting%20Staging%20Profiles).
+
 
 To unpublish a profile to remove operator access, select Unpublish.
 
@@ -201,6 +203,8 @@ To stage an audio profile:
 
 6. To stage the clients using the audio file, select Play Audio, or Download to save the audio file for other administrators or operators to use. See [Device Staging](../stageclient).
 
+7. To export the profile for an MDM or for StageNow, select the Export For MDM or Export For StageNow button. See [Exporting Staging Profiles](../stagingprofiles?Exporting%20Staging%20Profiles).
+
 
 To unpublish a profile to remove operator access, select Unpublish.
 
@@ -222,6 +226,9 @@ To stage an NFC profile:
 5. Select Publish Now.
 
 6. To make the profile available for staging, select Stage. This save the NFC tag as a .bin file that devices can read for staging. See [Device Staging](../stageclient).
+
+7. To export the profile for an MDM or for StageNow, select the Export For MDM or Export For StageNow button. See [Exporting Staging Profiles](../stagingprofiles?Exporting%20Staging%20Profiles).
+
 
 
 To unpublish a profile to remove operator access, select Unpublish.
@@ -267,15 +274,17 @@ To edit a profile:
 >Note:  
 >Incomplete profiles cannot be exported.
 
-To export a single profile for other administrators to use:
+To export a single profile for StageNow or for an MDM:
 
 1. Select the Export icon next to the profile. ![img](images/icon_export.jpg)
 
+    ![img](images/Export_choice.jpg)
+
+2. Select whether to export for an MDM or for within the StageNow tool.
+
     ![img](images/Export_hidden.jpg)
 
-2. To lock the profile so it cannot be changed and hide the details from other administrators, select the check box.
-
-3. Select OK.
+3. If you select Export For StageNow, to lock the profile so it cannot be changed and hide the details from other administrators, select the check box, and then select OK.
 
 4. Select a location for the profile and select Save. A window indicates that the profile was exported successfully.
 
