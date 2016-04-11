@@ -78,7 +78,7 @@ To create an Enroll in an MDM profile for MX 5.1:
 
 9. Select whether to download a configuration file. If you select Yes, see [Setting Types / File mgr](../csp/file) for instructions.
 
-10. If you selected Airwatch, select whether to enroll an Mx Service. If you select Yes, select a method for performing the enrollment and select Continue.
+10. If you selected AirWatch, select whether to enroll an Mx Service. If you select Yes, select a method for performing the enrollment and select Continue.
 
 * For No, I want to Download the file to my device, see [Setting Types / File mgr](../csp/file) for instructions.
 
@@ -86,7 +86,7 @@ To create an Enroll in an MDM profile for MX 5.1:
 
 * Select whether to launch an Mx Service APK.
 
-11. If you selected Airwatch, select whether to enroll for MDM Agent. 
+11. If you selected AirWatch, select whether to enroll for MDM Agent. 
 
 12. Select whether to download a Remote Control APK file.
 
@@ -102,7 +102,7 @@ To create an Enroll in an MDM profile for MX 5.1:
 
 * For Yes, I want to Install the file, see [Setting Types / AppMgr](../csp/app) for instructions.
 
-14. If you selected Soti in Step 8, select whether to launch the Soti APK.  If you select Yes, see [Setting Types / Intent](../csp/intent) for instructions.
+14. If you selected SOTI in Step 8, select whether to launch the SOTI APK.  If you select Yes, see [Setting Types / Intent](../csp/intent) for instructions.
 
 15. Select whether or not to connect to a production network. If you select Yes, select a network type.  See [Profiles / Connect Network](../Profiles/ConnectNetwork) for instructions on connecting to a network and populating the settings window.
 

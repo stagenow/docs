@@ -150,7 +150,7 @@ Select Try Later or X to dismiss this window and the auto-update tool bar.
 
 ![img](images/Update_Component.jpg)
 
-Select Download and Install from the Learn More window, or Install Now on the auto-update tool bar, to upgrade the available software components.
+Select Download and Install from the Learn More window, or Update on the auto-update tool bar, to upgrade the available software components.
 
 The auto-update tool bar displays a progress bar, and then indicates that it is applying component updates. The StageNow tool restarts and updates the components.
 
