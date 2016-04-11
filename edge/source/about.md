@@ -31,7 +31,7 @@ Topics covered in this guide are as follows:
 * [Device Staging](../stageclient) provides information for the staging operator on selecting a profile for configuring the target devices, and deploying the profile material to the devices.
 
 ## What's New
-The following topics are added or updated for StageNow 2.2:
+The following topics are added or updated for StageNow 2.3:
 
 * Support for Lollipop devices and MX 5.1
 
@@ -39,6 +39,6 @@ The following topics are added or updated for StageNow 2.2:
 
 * [Exporting for an MDM](../stagingprofiles?Exporting%20Staging%20Profiles)
 
-* [Enrolling in an MDM for MX 5._1](../Profiles/enrollmdm?Enrolling%20in%20an%20MDM%20for%20MX%20Version%205.1)
+* [Enrolling in an MDM for MX 5.1](../Profiles/enrollmdm?Enrolling%20in%20an%20MDM%20for%20MX%20Version%205.1)
 
 * [Client Error Logging](../stageclient?StageNow%20Client%20Menu)

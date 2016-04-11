@@ -161,6 +161,7 @@ In the StageNow application, select the three vertical dots at the top right of 
 
 ![img](images/Client_Menu.jpg)
 
+### Last Staging Error
 If staging fails, a screen appears indicating this.
 
 To review the log to determine the cause of the error, select Yes from the staging failure screen, or from the StageNow Client menu, select Last Staging Error.
@@ -169,11 +170,17 @@ To review the log to determine the cause of the error, select Yes from the stagi
 
 Locate the error(s) in the log. Refer to the characteristic-error or parm-error in the log contents.
 
-#### Clear Logs
+#### Log Path
 
-To clear the log, select the menu icon, and select Clear Log.
+To configure the log file path, select the menu icon and select Log Path. 
 
-![img](images/ClearLog.jpg)
+![img](images/Client_LogPath.jpg)
+
+The Log Path window opens.
+
+![img](images/Client_LogPath_window.jpg)
+
+Enter the new path and select Done to update the path, or cancel to retain the existing path.
 
 
 ### View Client Info
