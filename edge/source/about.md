@@ -47,4 +47,4 @@ The following topics are added or updated for StageNow 2.3:
 
 * [UI Manager](../csp/ui) now supports extended locales
 
-* [Intent Manager](../csp/intent) no longer requires a package name (com.package.name), only an application name, e.g., Enterprise Home Screen (Application Deployment)
+* [Intent Manager](../csp/intent) no longer requires a package name (com.package.name), only an application name, e.g., Enterprise Home Screen
