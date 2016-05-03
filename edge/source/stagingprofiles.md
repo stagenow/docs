@@ -353,3 +353,8 @@ To delete a profile:
 2. Select OK to confirm the deletion.
 
 3. A window indicates that the profile was successfully deleted. Select OK.
+
+
+## Upgrading Profiles
+
+StageNow 2.3 and later allow the administrator to upgrade profiles created in any released or beta StageNow version to the latest version, i.e., StageNow 2.3.

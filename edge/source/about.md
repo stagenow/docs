@@ -41,4 +41,10 @@ The following topics are added or updated for StageNow 2.3:
 
 * [Enrolling in an MDM for MX 5.1](../Profiles/enrollmdm?Enrolling%20in%20an%20MDM%20for%20MX%20Version%205.1)
 
+* [Upgrading Profiles](../stagingprofiles?Upgrading%20Profiles)
+
 * [Client Error Logging](../stageclient?StageNow%20Client%20Menu)
+
+* [UI Manager](../csp/ui) now supports extended locales
+
+* [Intent Manager](../csp/intent) no longer requires a package name (com.package.name), only an application name, e.g., Enterprise Home Screen (Application Deployment)
