@@ -33,7 +33,7 @@ Topics covered in this guide are as follows:
 ## What's New
 The following topics are added or updated for StageNow 2.3:
 
-* Support for Lollipop devices and MX 5.1
+* Support for Lollipop devices, MX 5.1, and MX 5.2
 
 * [Software Update](../gettingstarted?Software%20Update)
 
@@ -45,6 +45,10 @@ The following topics are added or updated for StageNow 2.3:
 
 * [Client Error Logging](../stageclient?StageNow%20Client%20Menu)
 
-* [UI Manager](../csp/ui) now supports extended locales
+* [Remote Scanner Manager](../csp/rsm)
+
+* [UI Manager](../csp/ui) now supports extended locales and enable/disable QuickSettings from Notification
+
+* [KeyMap](../csp/keymap) now supports P1, P2, P3 keys for Zebra RS6000 devices
 
 * [Intent Manager](../csp/intent) no longer requires a package name (com.package.name), only an application name, e.g., Enterprise Home Screen
