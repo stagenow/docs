@@ -4,6 +4,8 @@ This window displays the Wizard templates available for creating profiles and al
 
 The drop-down offers three MX versions for profile creation:
 
+* MX 6.0 - Select this for Zebra Lollipop devices, which include the StageNow Client, and to use the Wi-Fi Hotspot feature.
+
 * MX 5.1/MX5.2 - Select this for Zebra Lollipop devices, which include the StageNow Client.
 
 * MX 5.0 - Select this for Zebra KitKat devices, which include the StageNow Client.

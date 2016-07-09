@@ -17,21 +17,23 @@ To create a Manage Applications profile:
 
     Note: During profile creation, the top right of the window indicates the status of the profile, e.g., Incomplete.
 
-5. To choose to connect to this network using StageNow bar codes, select Yes, and then select Continue. Otherwise, select No to skip to the RD Config section (if available).
+5. If you selected MX 6.0 from the MX version drop-down menu, see [MX 6.0 Selection](../stagingprofiles?MX%206.0%20Selection), and then proceed to Step 7.
 
-6. If you chose to connect using StageNow bar codes, see [Profiles / Connect Network](../Profiles/ConnectNetwork) for instructions on connecting to a network and populating the settings window.
+6. To choose to connect to this network using StageNow bar codes, select Yes, and then select Continue. Otherwise, select No to skip to the RD Config section (if available).
+
+7. If you chose to connect using StageNow bar codes, see [Profiles / Connect Network](../Profiles/ConnectNetwork) for instructions on connecting to a network and populating the settings window.
 
    Note: This wizard includes a Deployment section. Deployment requires that the host computer and the device(s) are on the same network. 
 
-7. If offered, select whether to connect to this network using the Rapid Deployment (RD) Client. Note that the RD Config section only appears if you turned on Legacy Mode in the [Settings](../gettingstarted?Settings) screen. Select Yes for devices that don't include the StageNow Client. See [Rapid Deployment (RD) Client](../stageclient?Rapid%20Deployment%20Client) for more information.
+8. If offered, select whether to connect to this network using the Rapid Deployment (RD) Client. Note that the RD Config section only appears if you turned on Legacy Mode in the [Settings](../gettingstarted?Settings) screen. Select Yes for devices that don't include the StageNow Client. See [Rapid Deployment (RD) Client](../stageclient?Rapid%20Deployment%20Client) for more information.
 
-8. If you selected Yes, choose whether to set up Wi-Fi options and/or Wi-Fi profiles. See [Setting Types / Wifi mgr](../csp/wifi).
+9. If you selected Yes, choose whether to set up Wi-Fi options and/or Wi-Fi profiles. See [Setting Types / Wifi mgr](../csp/wifi).
 
     ![img](images/profiles/manageapps_uninstall.jpg)
 
-9. Select whether or not to uninstall an application. If you select Yes, see [Setting Types / AppMgr](../csp/app) for information on uninstall options. 
+10. Select whether or not to uninstall an application. If you select Yes, see [Setting Types / AppMgr](../csp/app) for information on uninstall options. 
 
-10. Select whether or not to install an application. If you select Yes:
+11. Select whether or not to install an application. If you select Yes:
 
     a. Select whether or not the application requires license management (MX 4.3 only). See [Setting Types / LicenseMgr](../csp/license) for information on license options.
 
@@ -43,8 +45,8 @@ To create a Manage Applications profile:
 
     e. Select whether to launch an APK file. If you select yes, See [Setting Types / Intent](../csp/intent).
 
-11. Select whether or not to connect to another network to use after staging. If you select Yes, see [Profiles / Connect Network](../Profiles/ConnectNetwork) for instructions.
+12. Select whether or not to connect to another network to use after staging. If you select Yes, see [Profiles / Connect Network](../Profiles/ConnectNetwork) for instructions.
 
-12. Select whether or not to reboot the device. If you select Yes, see [Setting Types / PowerMgr](../csp/power) for information on reboot options.
+13. Select whether or not to reboot the device. If you select Yes, see [Setting Types / PowerMgr](../csp/power) for information on reboot options.
 
-13. Select Continue to proceed to the [Review window](../stagingprofiles?Review).
+14. Select Continue to proceed to the [Review window](../stagingprofiles?Review).

@@ -260,6 +260,11 @@ var menuStrcture = [
 				icon: 'fa fa-download',
 				link: '#stageclient',
 			},
+			{
+				name: 'Troubleshooting',
+				icon: 'fa fa-wrench',
+				link: '#troubleshooting',				
+			},
 		]
 	}
 ];

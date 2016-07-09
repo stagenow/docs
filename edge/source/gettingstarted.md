@@ -9,7 +9,7 @@ Staging is the process where a device administrator or operator configures a dev
 An administrator can stage all devices within an enterprise, devices in a particular store or site, or on-site/per user.
 
 ## StageNow Staging Solution
-StageNow is Zebra's next generation Android Staging Solution, supporting Lollipop, KitKat, and Jelly Bean and built on the MX 4.3/4.4/5.X platform. It allows simple profile creation, and easy device deployment with a simple bar code scan, tag read, or audio file play.
+StageNow is Zebra's next generation Android Staging Solution, supporting Lollipop, KitKat, and Jelly Bean and built on the MX 4.3/4.4/5.X/6.0 platform. It allows simple profile creation, and easy device deployment with a simple bar code scan, tag read, or audio file play.
 
 The StageNow Staging Solution includes the following components:
 
@@ -52,7 +52,7 @@ If published profiles are available, the Staging Operator home screen appears.
 
 ![img](images/Homescreen_operator.jpg)
 
-The Operator home screen lists the latest profiles available. The top of the screen shows the [IP Address](../gettingstarted?Current%20IP%20Address) currently used (if any), useful for when you need to connect to the Staging Server.
+The Operator home screen lists the latest profiles available. The top of the screen shows the [IP Address](../gettingstarted?Current%20IP%20Address) currently used (if any), useful for when you need to connect to the Staging Server. The top of the screen also includes a [Wi-Fi Hotspot](../gettingstarted?Wi-Fi%20Hotspot) option, which allows the desktop computer to act as WiFi hotspot for staging devices.
 
 The main sections of this window include the following fields:
 
@@ -64,9 +64,11 @@ The main sections of this window include the following fields:
 
 * Last Updated - The last time an administrator updated the profile.
 
-* Latest Staged - The last time the profile was staged.
+* Latest Published - The last time the profile was published.
 
 * MX Version - The version of MX used when creating the profile.
+
+* Connection Type - How StageNow connects to a network (MX 6.0 only).
 
 * RD - Indicates whether the profile is RD enabled, i.e., whether RD bar codes can be printed from this profile.
 
@@ -77,7 +79,7 @@ If there are no published profiles for the Staging Operator, the Welcome screen 
 
 Enter the Administrator password set up during installation, and select Login to open the Administrator home screen.
 
-![img](images/Homescreen_admin.jpg) 
+![img](images/Homescreen_admin1.jpg) 
 
 
 The Administrator home screen lists profiles grouped by stages of completion. 
@@ -94,6 +96,16 @@ If more than one IP address is available and neither is selected, the Current IP
 ![img](images/AvailableIPAddresses.jpg)
 
 Select the IP, then select Set as Current. This IP address is retained in future operations, including after re-launch and system reboot. 
+
+### Wi-Fi Hotspot
+The StageNow tool allows the desktop computer to act as WiFi hotspot for staging devices. This allows staging without requiring an external Wi-Fi network and with a single staging bar code, and eliminates the need for reprinting bar codes if there is a profile change.
+
+If the Wi-Fi hotspot is off, you can turn it on via the button on the heading bar.
+
+![img](images/wifi_titlebar.jpg)
+
+You can also choose to turn the hotspot on when you start the StageNow tool via the Settings menu. 
+
 
 ### Change Password
 The top right corner of the screen offers an option to change the Administrator password.
@@ -174,9 +186,11 @@ The various profile lists in the Home window include the following fields:
 
 * Last Updated - The last time an administrator updated the profile.
 
-* Status - Status of the profile.
+* MX Version - The version of MX used when creating the profile.
 
-* Latest Staged (not available for Incomplete Profiles) - The last time the profile was staged.
+* Connection Type - How StageNow connects to a network (MX 6.0 only).
+
+* RD - Indicates whether the profile is RD enabled, i.e., whether RD bar codes can be printed from this profile.
 
 * Actions - Offers the following actions to perform on the profile:
 
@@ -186,9 +200,6 @@ The various profile lists in the Home window include the following fields:
 
     * Delete ![img](images/icon_trash.jpg) - Delete the profile. 
 
-* RD - Indicates whether the profile is RD enabled, i.e., whether RD bar codes can be printed from this profile.
-
-* MX Version - The version of MX used when creating the profile.
 
 ### Server Icon
 Profiles requiring the client device to be connected to the staging server appear with a server icon appended to the profile name, as shown next to the first profile name below.
@@ -255,7 +266,7 @@ The following table lists the situations in which the server icon would appear, 
 The top left corner of the StageNow Workstation Tool window offers the following three menu items.
 
 ### Settings
-Selecting Settings in the top left corner of the tool offers four options. 
+Selecting Settings in the top left corner of the tool offers five options. 
 
 ![img](images/HomeSettings.jpg)
 
@@ -284,8 +295,17 @@ Turn this setting on to terminate the staging process upon first error. If left 
 
 * For Xpert Mode, if First Error Termination is on, it only works if the ConditionMgr DSD is present in the profile.
 
-#### Check for software updates automatically
+#### Check for software updates on startup
 Turn this setting on to display a message below the menu bar indicating when there is a new StageNow version available. 
+
+#### Always turn WiFi Hotspot on at startup
+The StageNow tool allows the desktop computer to act as WiFi hotspot for staging devices.
+
+Turn this setting on to turn the Wi-Fi hotspot on when you start the StageNow tool. 
+
+If the Wi-Fi hotspot is off, you can also turn it on via the button on the heading bar.
+
+![img](images/wifi_titlebar.jpg)
 
 ### Help
 This launches the StageNow user guide in the default browser. 

@@ -20,11 +20,13 @@ To create a Connect Wi-Fi Network profile:
 
     Note: During profile creation, the top right of the window indicates the status of the profile, e.g., Incomplete.
 
-5. To choose to connect to this network using StageNow bar codes, select Yes, and then select Continue. Otherwise, select No to skip to the RD Config section (if available).
+5. If you selected MX 6.0 from the MX version drop-down menu, see [MX 6.0 Selection](../stagingprofiles?MX%206.0%20Selection), and then proceed to Step 7.
+
+6. To choose to connect to this network using StageNow bar codes, select Yes, and then select Continue. Otherwise, select No to skip to the RD Config section (if available).
 
     ![img](images/profiles/Profile_SNConfig2.jpg)
 
-6. Select the Wi-Fi network type from the drop-down menu, and select Continue.
+7. Select the Wi-Fi network type from the drop-down menu, and select Continue.
 
     a. Select whether or not to manage certificates related to Wi-Fi networks, and then select Continue. This allows you to initialize the Android KeyStore, remove a certificate, install CA (server) and client certificates, . Select Yes if you have a certificate-based network. See [Setting Types / Certificate mgr](../csp/cert) for more information.
 
@@ -44,11 +46,11 @@ To create a Connect Wi-Fi Network profile:
 
     g. Select Continue.
 
-7. If offered, select whether to connect to this network using the Rapid Deployment (RD) Client. Note that the RD Config section only appears if you turned on Legacy Mode in the [Settings](../gettingstarted?Settings) screen. Select Yes for  devices that don't include the StageNow Client. See [Rapid Deployment (RD) Client](../stageclient?Rapid%20Deployment%20Client) for more information.
+8. If offered, select whether to connect to this network using the Rapid Deployment (RD) Client. Note that the RD Config section only appears if you turned on Legacy Mode in the [Settings](../gettingstarted?Settings) screen. Select Yes for  devices that don't include the StageNow Client. See [Rapid Deployment (RD) Client](../stageclient?Rapid%20Deployment%20Client) for more information.
 
-8. If you selected Yes, choose whether to set up Wi-Fi options and/or Wi-Fi profiles. See [Setting Types / Wifi mgr](../csp/wifi).
+9. If you selected Yes, choose whether to set up Wi-Fi options and/or Wi-Fi profiles. See [Setting Types / Wifi mgr](../csp/wifi).
 
-9. Select Continue to proceed to the [Review window](../stagingprofiles?Review).
+10. Select Continue to proceed to the [Review window](../stagingprofiles?Review).
 
 
 ##Connecting to a GPRS Network
@@ -72,11 +74,13 @@ To create a Connect GPRS Network profile:
 
     Note: During profile creation, the top right of the window indicates the status of the profile, e.g., Incomplete.
 
-5. To choose to connect to this network using StageNow bar codes, select Yes, and then select Continue. Otherwise, select No to skip to the RD Config section, if available.
+5. If you selected MX 6.0 from the MX version drop-down menu, see [MX 6.0 Selection](../stagingprofiles?MX%206.0%20Selection), and then proceed to Step 7.
+
+6. To choose to connect to this network using StageNow bar codes, select Yes, and then select Continue. Otherwise, select No to skip to the RD Config section, if available.
 
     ![img](images/profiles/Profile_SNConfig4.jpg)
 
-6. Select the GPRS network type from the drop-down menu, and select Continue.
+7. Select the GPRS network type from the drop-down menu, and select Continue.
 
     a. Select whether to remove all GPRS APNs, and select Continue.
 
@@ -90,13 +94,13 @@ To create a Connect GPRS Network profile:
 
     d. Select Continue.
 
-7. If offered, select whether to connect to this network using the Rapid Deployment (RD) Client. Note that the RD Config section only appears if you turned on Legacy Mode in the [Settings](../gettingstarted?Settings) screen. Select Yes for  devices that don't include the StageNow Client. See [Rapid Deployment (RD) Client](../stageclient?Rapid%20Deployment%20Client) for more information.
+8. If offered, select whether to connect to this network using the Rapid Deployment (RD) Client. Note that the RD Config section only appears if you turned on Legacy Mode in the [Settings](../gettingstarted?Settings) screen. Select Yes for  devices that don't include the StageNow Client. See [Rapid Deployment (RD) Client](../stageclient?Rapid%20Deployment%20Client) for more information.
 
     ![img](images/profiles/connectnetwork_RD2.jpg)
 
-8. If you selected Yes, choose whether to set up Wi-Fi options and/or Wi-Fi profiles. See [Setting Types / Wifi mgr](../csp/wifi).
+9. If you selected Yes, choose whether to set up Wi-Fi options and/or Wi-Fi profiles. See [Setting Types / Wifi mgr](../csp/wifi).
 
-9. Select Continue to proceed to the [Review window](../stagingprofiles?Review).
+10. Select Continue to proceed to the [Review window](../stagingprofiles?Review).
 
 
 ##Connecting to an Ethernet Network
@@ -118,22 +122,24 @@ To create a Connect Ethernet Network profile:
 
     Note: During profile creation, the top right of the window indicates the status of the profile, e.g., Incomplete.
 
-5. To choose to connect to this network using StageNow bar codes, select Yes, and then select Continue. Otherwise, select No to skip to the RD Config section (if available).
+5. If you selected MX 6.0 from the MX version drop-down menu, see [MX 6.0 Selection](../stagingprofiles?MX%206.0%20Selection), and then proceed to Step 7.
+
+6. To choose to connect to this network using StageNow bar codes, select Yes, and then select Continue. Otherwise, select No to skip to the RD Config section (if available).
 
     ![img](images/profiles/connectnetwork_ethernet_selectethernet.jpg)
 
-6. Select Ethernet from the drop-down menu, and select Continue.
+7. Select Ethernet from the drop-down menu, and select Continue.
 
     ![img](images/profiles/connectnetwork_ethernet_enabling.jpg)
 
-7. Select Continue to enable Ethernet on the device.
+8. Select Continue to enable Ethernet on the device.
 
-8. Select whether or not to wait for the device to acquire an IP address. See [Setting Types / ConditionMgr](../csp/condition) for more information.
+9. Select whether or not to wait for the device to acquire an IP address. See [Setting Types / ConditionMgr](../csp/condition) for more information.
 
-9. Select Continue.
+10. Select Continue.
 
-10. If offered, select whether to connect to this network using the Rapid Deployment (RD) Client. Note that the RD Config section only appears if you turned on Legacy Mode in the [Settings](../gettingstarted?Settings) screen. Select Yes for  devices that don't include the StageNow Client. See [Rapid Deployment (RD) Client](../stageclient?Rapid%20Deployment%20Client) for more information.
+11. If offered, select whether to connect to this network using the Rapid Deployment (RD) Client. Note that the RD Config section only appears if you turned on Legacy Mode in the [Settings](../gettingstarted?Settings) screen. Select Yes for  devices that don't include the StageNow Client. See [Rapid Deployment (RD) Client](../stageclient?Rapid%20Deployment%20Client) for more information.
 
-11. If you selected Yes, choose whether to set up Wi-Fi options and/or Wi-Fi profiles. See [Setting Types / Wifi mgr](../csp/wifi).
+12. If you selected Yes, choose whether to set up Wi-Fi options and/or Wi-Fi profiles. See [Setting Types / Wifi mgr](../csp/wifi).
 
-12. Select Continue to proceed to the [Review window](../stagingprofiles?Review).
+13. Select Continue to proceed to the [Review window](../stagingprofiles?Review).

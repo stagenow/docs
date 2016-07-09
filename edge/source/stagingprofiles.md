@@ -115,6 +115,23 @@ Select one of the following Wizards and select Create.
 
 After completing the StageNow Config and RD Config sections of the Wizard, proceed to the next section of the Wizard.  Certain Wizards include a Deployment section, whereas others proceed to the Review section.
 
+### MX 6.0 Selection
+
+Selecting MX 6.0 from the MX version drop-down menu supports a Wi-Fi hotspot option for some Wizards. If you select MX 6.0 for the applicable Wizards, the first Wizard window prompts you to select one of the following options from the drop-down menu:
+
+* The devices I wish to provision are currently not connected to a network. I will define a network with this profile that will be used for staging.
+
+* The devices I wish to provision are already connected to a network that will be used for staging. 
+
+* I wish to use the WiFi Hotspot feature which will automatically create a network for staging using this computer's network card. 
+
+![img](images/profiles/configdevice_wifi.jpg)
+
+Select an option and proceed to the instructions for the selected Wizard.
+
+>Note:  
+>The second and third options are only supported by Wizards that utilize the Deployment section of the tool.
+
 ## Deployment
 Use the Deployment section of the Wizard to specify the subset of the settings that define what the profile does, and store these settings on a deployment server. See the specific [Profile Wizard](../ProfileWizards) for instructions. 
 Note that this section is not available in certain Wizards. 
@@ -157,27 +174,29 @@ To stage a bar code profile:
 
 1. Select the Barcode tab. 
 
-    ![img](images/Publish_BarCodeTab.jpg)
+    ![img](images/wifi_publish.jpg)
 
-2. Select the checkbox for PDF417 or Linear to specify the type of bar code for deployment, or choose Select All to select all bar code types.
+2. To create a direct connection via hotspot instead of using the configured staging server, select the Yes, use Wifi Direct checkbox. This allows staging without requiring an external Wi-Fi network and with a single staging bar code, and eliminates the need for reprinting bar codes if there is a profile change.
 
-3. Select Test to test the functionality of the profile before publishing. This generates a PDF of test staging bar code(s). While this step is optional, it is important to determine whether the profile functions as intended before making it available to the operator(s) for staging devices.
+3. Select the checkbox for PDF417 or Linear to specify the type of bar code for deployment, or choose Select All to select all bar code types.
+
+4. Select Test to test the functionality of the profile before publishing. This generates a PDF of test staging bar code(s). While this step is optional, it is important to determine whether the profile functions as intended before making it available to the operator(s) for staging devices.
 
     ![img](images/Publish_BarCodeTab_Test.jpg)
 
-4. If the staging material functions properly, select Publish to publish the material for operator use. Note that the administrator can choose to publish only certain types of bar codes that were successfully tested, and publish the others when they are ready.
+5. If the staging material functions properly, select Publish to publish the material for operator use. Note that the administrator can choose to publish only certain types of bar codes that were successfully tested, and publish the others when they are ready.
 
-5. Enter staging instructions for the operator.
+6. Enter staging instructions for the operator.
 
     ![img](images/ConnectNetwork_Publish_Instructions.jpg)
 
-6. Select Publish Now.
+7. Select Publish Now.
 
     ![img](images/Publish_BarCodeTab_published.jpg)
 
-7. To make the profile available for staging, select Stage. This generates a PDF of staging bar code(s) that devices can scan for staging. See [Device Staging](../stageclient).
+8. To make the profile available for staging, select Stage. This generates a PDF of staging bar code(s) that devices can scan for staging. See [Device Staging](../stageclient).
 
-8. To export the profile for an MDM or for StageNow, select the Export For MDM or Export For StageNow button. See [Exporting Staging Profiles](../stagingprofiles?Exporting%20Staging%20Profiles).
+9. To export the profile for an MDM or for StageNow, select the Export For MDM or Export For StageNow button. See [Exporting Staging Profiles](../stagingprofiles?Exporting%20Staging%20Profiles).
 
 
 To unpublish a profile to remove operator access, select Unpublish.
@@ -193,17 +212,19 @@ To stage an audio profile:
 
     ![img](images/Publish_AudioTab.jpg)
 
-3. Select Test Audio to play the file in order to verify the functionality before publishing, or the Download icon to save the audio file before testing. While this step is optional, it is important to determine whether the profile functions as intended before making it available to the operator(s) for staging devices.
+3. To create a direct connection via hotspot instead of using the configured staging server, select the Yes, use Wifi Direct checkbox.
+
+4. Select Test Audio to play the file in order to verify the functionality before publishing, or the Download icon to save the audio file before testing. While this step is optional, it is important to determine whether the profile functions as intended before making it available to the operator(s) for staging devices.
 
     ![img](images/Publish_AudioTab_Test.jpg)
 
-4. If the audio file functions properly, select Publish Profile to publish the audio file for operator use. 
+5. If the audio file functions properly, select Publish Profile to publish the audio file for operator use. 
 
-5. Enter staging instructions for the operator, and select Publish Now.
+6. Enter staging instructions for the operator, and select Publish Now.
 
-6. To stage the clients using the audio file, select Play Audio, or Download to save the audio file for other administrators or operators to use. See [Device Staging](../stageclient).
+7. To stage the clients using the audio file, select Play Audio, or Download to save the audio file for other administrators or operators to use. See [Device Staging](../stageclient).
 
-7. To export the profile for an MDM or for StageNow, select the Export For MDM or Export For StageNow button. See [Exporting Staging Profiles](../stagingprofiles?Exporting%20Staging%20Profiles).
+8. To export the profile for an MDM or for StageNow, select the Export For MDM or Export For StageNow button. See [Exporting Staging Profiles](../stagingprofiles?Exporting%20Staging%20Profiles).
 
 
 To unpublish a profile to remove operator access, select Unpublish.
@@ -215,20 +236,21 @@ To stage an NFC profile:
 
     ![img](images/Publish_NFCTab.jpg)
 
-2. Select Test to test the functionality of the profile before publishing. This saves the NFC tag as a .bin file for testing. While this step is optional, it is important to determine whether the profile functions as intended before making it available to the operator(s) for staging devices.
+2. To create a direct connection via hotspot instead of using the configured staging server, select the Yes, use Wifi Direct checkbox.
 
-3. If the staging material functions properly, select Publish to publish the material for operator use. 
+3. Select Test to test the functionality of the profile before publishing. This saves the NFC tag as a .bin file for testing. While this step is optional, it is important to determine whether the profile functions as intended before making it available to the operator(s) for staging devices.
 
-4. Enter staging instructions for the operator.
+4. If the staging material functions properly, select Publish to publish the material for operator use. 
+
+5. Enter staging instructions for the operator.
 
     ![img](images/ConnectNetwork_Publish_Instructions.jpg)
 
-5. Select Publish Now.
+6. Select Publish Now.
 
-6. To make the profile available for staging, select Stage. This save the NFC tag as a .bin file that devices can read for staging. See [Device Staging](../stageclient).
+7. To make the profile available for staging, select Stage. This save the NFC tag as a .bin file that devices can read for staging. See [Device Staging](../stageclient).
 
-7. To export the profile for an MDM or for StageNow, select the Export For MDM or Export For StageNow button. See [Exporting Staging Profiles](../stagingprofiles?Exporting%20Staging%20Profiles).
-
+8. To export the profile for an MDM or for StageNow, select the Export For MDM or Export For StageNow button. See [Exporting Staging Profiles](../stagingprofiles?Exporting%20Staging%20Profiles).
 
 
 To unpublish a profile to remove operator access, select Unpublish.
@@ -357,4 +379,4 @@ To delete a profile:
 
 ## Upgrading Profiles
 
-StageNow 2.3 and later allow the administrator to upgrade profiles created in any released or beta StageNow version to the latest version, i.e., StageNow 2.3.
+StageNow 2.3 and later allow the administrator to upgrade profiles created in any released or beta StageNow version to the latest version, i.e., StageNow 2.4.

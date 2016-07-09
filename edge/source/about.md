@@ -1,11 +1,11 @@
 # About This Help
 
-StageNow 2.3 User Guide, Revision A
+StageNow 2.4 User Guide, Revision A
 
-P/N MN-002672-02
+P/N MN-002672-03
 
 ## Introduction
-This help file provides the staging administrator instructions on using StageNow 2.3 to create profiles to use for staging devices.
+This help file provides the staging administrator instructions on using StageNow 2.4 to create profiles to use for staging devices.
 
 ## Supported Web Browsers
 
@@ -30,25 +30,29 @@ Topics covered in this guide are as follows:
 
 * [Device Staging](../stageclient) provides information for the staging operator on selecting a profile for configuring the target devices, and deploying the profile material to the devices.
 
+* [Troubleshooting](../troubleshooting) discusses errors that can occur in the StageNow Tool, and possible solutions.
+
 ## What's New
-The following topics are added or updated for StageNow 2.3:
+The following topics are added or updated for StageNow 2.4:
 
-* Support for Lollipop devices, MX 5.1, and MX 5.2
+* Support for connection via [Wi-Fi Hotspot](../gettingstarted?Wi-Fi%20Hotspot)
 
-* [Software Update](../gettingstarted?Software%20Update)
+* Support for [MX 6.0](../stagingprofiles?MX%206.0%20Selection) with following functionalities:
 
-* [Exporting for an MDM](../stagingprofiles?Exporting%20Staging%20Profiles)
+   - [Clock](../csp/clock) 
 
-* [Enrolling in an MDM for MX 5.1](../Profiles/enrollmdm?Enrolling%20in%20an%20MDM%20for%20MX%20Version%205.1)
+   - AppGallery
 
-* [Upgrading Profiles](../stagingprofiles?Upgrading%20Profiles)
+   - Enterprise KeyBoard
 
-* [Client Error Logging](../stageclient?StageNow%20Client%20Menu)
+   - Personal Dictionary
 
-* [Remote Scanner Manager](../csp/rsm)
+   - [Camera](../csp/camera) support for disabling a picture taken via the imager
 
-* [UI Manager](../csp/ui) now supports extended locales and enable/disable QuickSettings from Notification
+   - [Analytics](../csp/analyticsmgr)
 
-* [KeyMap](../csp/keymap) now supports P1, P2, P3 keys for Zebra RS6000 devices
+   - [Condition](../csp/condition) support for validating the device model, Android version, MX version, and OS version
 
-* [Intent Manager](../csp/intent) no longer requires a package name (com.package.name), only an application name, e.g., Enterprise Home Screen
+* Updated [OS Update Wizard](../Profiles/osupdate?Performing%20an%20Incremental%20OS%20Update) to support conditional and incremental OS update    
+
+* [Troubleshooting](../troubleshooting)
