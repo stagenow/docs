@@ -170,6 +170,9 @@ To review the log to determine the cause of the error, select Yes from the stagi
 
 Locate the error(s) in the log. Refer to the characteristic-error or parm-error in the log contents.
 
+>Note:  
+>The Last Staging Error screen displays content only if there are errors in the staging operation. If the staging operation is successful, this screen is empty.
+
 #### Log Path
 
 To configure the log file path, select the menu icon and select Log Path. 
@@ -217,5 +220,9 @@ Specifically, to stage a device that includes RD Client:
 2. The operator uses the device to scan the bar code(s). This downloads and installs other device components, including MX Framework and the StageNow Client.
 
 3. The device reboots, and then StageNow Client automatically launches and completes the staging process in order to apply the profile settings. 
+
+>Note:  
+>This staging process done via the RD Client does not apply to rebranded devices.
+
 
 ![img](images/Client_RDclient.png)

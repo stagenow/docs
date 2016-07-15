@@ -98,14 +98,21 @@ If more than one IP address is available and neither is selected, the Current IP
 Select the IP, then select Set as Current. This IP address is retained in future operations, including after re-launch and system reboot. 
 
 ### Wi-Fi Hotspot
-The StageNow tool allows the desktop computer to act as WiFi hotspot for staging devices. This allows staging without requiring an external Wi-Fi network and with a single staging bar code, and eliminates the need for reprinting bar codes if there is a profile change.
+The StageNow tool allows a desktop computer equipped with a wireless network interface card to act as a Wi-Fi hotspot for staging devices. This allows staging without requiring an external Wi-Fi network and reduces the number bar codes to one with default security, or more than one with optional double security selected by the administrator.
+It also eliminates the need for reprinting the bar codes even if there is a profile change.
 
 If the Wi-Fi hotspot is off, you can turn it on via the button on the heading bar.
 
 ![img](images/wifi_titlebar.jpg)
 
-You can also choose to turn the hotspot on when you start the StageNow tool via the Settings menu. 
+By default, the StageNow Tool enables the Wi-Fi hotspot upon launch. You can disable the hotspot upon launch via the [Settings](../gettingstarted?Settings) menu. 
 
+#### Admin Privileges Required
+If the Wi-Fi hotspot is disabled upon launching the StageNow Tool, turning in it on for the first time invokes the User Account Control window. This window does not appear again until the tool is closed and re-opened.
+
+![img](images/wifi_controlwindow.jpg)
+
+Select Yes to start the Wi-Fi hotspot service, or No to cancel the operation.
 
 ### Change Password
 The top right corner of the screen offers an option to change the Administrator password.
@@ -306,6 +313,11 @@ Turn this setting on to turn the Wi-Fi hotspot on when you start the StageNow to
 If the Wi-Fi hotspot is off, you can also turn it on via the button on the heading bar.
 
 ![img](images/wifi_titlebar.jpg)
+
+If your workstation doesn't support the Wi-Fi Hotspot feature, the message below appears on the Settings window.
+
+![img](images/wifi_notsupported.jpg)
+
 
 ### Help
 This launches the StageNow user guide in the default browser. 

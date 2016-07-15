@@ -176,7 +176,7 @@ To stage a bar code profile:
 
     ![img](images/wifi_publish.jpg)
 
-2. To create a direct connection via hotspot instead of using the configured staging server, select the Yes, use Wifi Direct checkbox. This allows staging without requiring an external Wi-Fi network and with a single staging bar code, and eliminates the need for reprinting bar codes if there is a profile change.
+2. To create a direct connection via hotspot instead of using the configured staging network, select the Yes, use Wifi Direct checkbox. This allows staging without requiring an external Wi-Fi network and with a single staging bar code, and eliminates the need for reprinting bar codes if there is a profile change.
 
 3. Select the checkbox for PDF417 or Linear to specify the type of bar code for deployment, or choose Select All to select all bar code types.
 
@@ -212,7 +212,7 @@ To stage an audio profile:
 
     ![img](images/Publish_AudioTab.jpg)
 
-3. To create a direct connection via hotspot instead of using the configured staging server, select the Yes, use Wifi Direct checkbox.
+3. To create a direct connection via hotspot instead of using the configured staging network, select the Yes, use Wifi Direct checkbox.
 
 4. Select Test Audio to play the file in order to verify the functionality before publishing, or the Download icon to save the audio file before testing. While this step is optional, it is important to determine whether the profile functions as intended before making it available to the operator(s) for staging devices.
 
@@ -236,7 +236,7 @@ To stage an NFC profile:
 
     ![img](images/Publish_NFCTab.jpg)
 
-2. To create a direct connection via hotspot instead of using the configured staging server, select the Yes, use Wifi Direct checkbox.
+2. To create a direct connection via hotspot instead of using the configured staging network, select the Yes, use Wifi Direct checkbox.
 
 3. Select Test to test the functionality of the profile before publishing. This saves the NFC tag as a .bin file for testing. While this step is optional, it is important to determine whether the profile functions as intended before making it available to the operator(s) for staging devices.
 

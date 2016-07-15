@@ -19,7 +19,7 @@ Following are actions you can take to resolve the issue.
 
    ![img](images/TroubleWifi_ChangeSettings.jpg)
 
-3. Open a command prompt and enter: netsh wlan show drivers   to find the Wi-Fi driver adapter name.
+3. Open a command prompt and enter "netsh wlan show drivers" to find the Wi-Fi driver adapter name.
 
    ![img](images/TroubleWifi_CommandPrompt.jpg)
 
@@ -36,7 +36,7 @@ Following are actions you can take to resolve the issue.
 
 1. Open a command prompt as an Administrator.
 
-2. Enter: netsh wlan show drivers    and locate the result message outlined in green below.
+2. Enter "netsh wlan show drivers" and locate the result message outlined in green below.
 
    ![img](images/TroubleWifi_ShowDrivers.jpg)
 
@@ -45,7 +45,7 @@ Following are actions you can take to resolve the issue.
    ![img](images/TroubleWifi_NoHotspotMessage.jpg)
 
 3. Enter the following command in the command prompt: 
-netsh wlan set hostednetwork mode=allow ssid=<HotspotName> key= <HotspotPassword>
+"netsh wlan set hostednetwork mode=allow ssid=<HotspotName> key= <HotspotPassword>""
 
    Note: HotspotName is the name of Wi-Fi hotspot.
 
@@ -55,10 +55,10 @@ netsh wlan set hostednetwork mode=allow ssid=<HotspotName> key= <HotspotPassword
  
    ![img](images/TroubleWifi_HotspotCreateMessage.jpg)
 
-4. Enter: netsh wlan start hostednetwork   to start the hotspot. 
+4. Enter "netsh wlan start hostednetwork" to start the hotspot. 
  
    ![img](images/TroubleWifi_StartHotspot.jpg)
 
-5. Enter: netsh wlan stop hostednetwork   to stop the hotspot. 
+5. Enter "netsh wlan stop hostednetwork" to stop the hotspot. 
  
    ![img](images/TroubleWifi_StopHotspot.jpg)
