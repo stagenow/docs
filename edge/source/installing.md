@@ -1,4 +1,4 @@
-# Installation
+# Installing StageNow
 
 ## Introduction
 This section provides instructions for installing, uninstalling, and upgrading the StageNow Staging Solution, including system requirements. 

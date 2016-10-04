@@ -18,7 +18,7 @@ This help file provides the staging administrator instructions on using StageNow
 ## Section Descriptions
 Topics covered in this guide are as follows:
 
-* [Installation](../installing) provides instructions for installing, uninstalling, and upgrading the StageNow Staging Solution, including system requirements.
+* [Installing StageNow](../installing) provides instructions for installing, uninstalling, and upgrading the StageNow Staging Solution, including system requirements.
 
 * [Getting Started](../gettingstarted) describes StageNow and includes information on users, use cases, and devices supported.
 
@@ -36,6 +36,8 @@ Topics covered in this guide are as follows:
 
 ## What's New
 The following topics are added or updated for StageNow 2.5:
+
+* [Installing StageNow](../installing)
 
 * Support for Marshmallow devices
 
