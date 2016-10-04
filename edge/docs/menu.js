@@ -8,6 +8,12 @@ var menuStrcture = [
 				link: '#about',
 			},		
 			{
+				name: 'Installing StageNow', 
+				icon: 'fa fa-download',
+				link: '#installing',
+				
+			},
+			{
 				name: 'Getting Started', 
 				icon: 'fa fa-pencil',
 				link: '#gettingstarted',

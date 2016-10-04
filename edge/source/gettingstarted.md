@@ -9,7 +9,7 @@ Staging is the process where a device administrator or operator configures a dev
 An administrator can stage all devices within an enterprise, devices in a particular store or site, or on-site/per user.
 
 ## StageNow Staging Solution
-StageNow is Zebra's next generation Android Staging Solution, supporting Lollipop, KitKat, and Jelly Bean and built on the MX 4.3/4.4/5.X/6.0 platform. It allows simple profile creation, and easy device deployment with a simple bar code scan, tag read, or audio file play.
+StageNow is Zebra's next generation Android Staging Solution, supporting Marshmallow, Lollipop, KitKat, and Jelly Bean and built on the MX 4.3/4.4/5.X/6.X platform. It allows simple profile creation, and easy device deployment with a simple bar code scan, tag read, or audio file play.
 
 The StageNow Staging Solution includes the following components:
 
@@ -20,7 +20,7 @@ The StageNow Staging Solution includes the following components:
 * The StageNow Client resides on the device and provides a user interface for the staging operator to initiate staging. The operator uses a staging method, e.g., prints and scans a bar code, plays an audio file, or reads an NFC tag, to deliver staging material to the device
 
 ### Devices Supported
-StageNow supports all Lollipop, KitKat, and Jelly Bean Android devices from Zebra. Lollipop and KitKat devices that ship with the StageNow Client installed support all StageNow features.
+StageNow supports all Marshmallow, Lollipop, KitKat, and Jelly Bean Android devices from Zebra. Marshmallow, Lollipop, and KitKat devices that ship with the StageNow Client installed support all StageNow features.
 
 Jelly Bean and certain KitKat devices may not include the StageNow Client but do include Rapid Deployment (RD) Client. For staging, these devices can scan StageNow-generated RD bar codes, which cause the RD Client to connect to a network and then auto-install MX 5.0 for KitKat devices, MX 4.4 or lesser for Jelly Bean devices, and the StageNow Client on the device. The StageNow Client can then be used to scan StageNow profile bar codes for configuration. See [Rapid Deployment (RD) Client](../stageclient?Rapid%20Deployment%20(RD)%20Client) for more information on this process.
 
@@ -68,7 +68,7 @@ The main sections of this window include the following fields:
 
 * MX Version - The version of MX used when creating the profile.
 
-* Connection Type - How StageNow connects to a network (MX 6.0 only).
+* Connection Type - How StageNow connects to a network (MX 6.X only).
 
 * RD - Indicates whether the profile is RD enabled, i.e., whether RD bar codes can be printed from this profile.
 
@@ -195,7 +195,7 @@ The various profile lists in the Home window include the following fields:
 
 * MX Version - The version of MX used when creating the profile.
 
-* Connection Type - How StageNow connects to a network (MX 6.0 only).
+* Connection Type - How StageNow connects to a network (MX 6.X only).
 
 * RD - Indicates whether the profile is RD enabled, i.e., whether RD bar codes can be printed from this profile.
 

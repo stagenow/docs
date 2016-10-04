@@ -1,11 +1,11 @@
 # About This Help
 
-StageNow 2.4 User Guide, Revision A
+StageNow 2.5 User Guide, Revision A
 
-P/N MN-002672-03
+P/N MN-002672-04
 
 ## Introduction
-This help file provides the staging administrator instructions on using StageNow 2.4 to create profiles to use for staging devices.
+This help file provides the staging administrator instructions on using StageNow 2.5 to create profiles to use for staging devices.
 
 ## Supported Web Browsers
 
@@ -33,26 +33,19 @@ Topics covered in this guide are as follows:
 * [Troubleshooting](../troubleshooting) discusses errors that can occur in the StageNow Tool, and possible solutions.
 
 ## What's New
-The following topics are added or updated for StageNow 2.4:
+The following topics are added or updated for StageNow 2.5:
 
-* Support for connection via [Wi-Fi Hotspot](../gettingstarted?Wi-Fi%20Hotspot)
+* Support for Marshmallow devices
 
-* Support for [MX 6.0](../stagingprofiles?MX%206.0%20Selection) with following functionalities:
+* Support for [MX 6.1](../stagingprofiles?MX%206.X%20Selection) which adds functionality to the following setting types:
 
-   - [Clock](../csp/clock) 
+   - [Bluetooth Manager](../csp/bluetoothmgr) allows enabling and disabling Bluetooth discoverability
 
-   - AppGallery
+   - [GPRS Manager](../csp/gprs) supports adding APN and setting certain parameters including proxy server/port
 
-   - Enterprise KeyBoard
+   - [Persist Manager](../csp/persistence) supports device Lockdown after an enterprise reset
 
-   - Personal Dictionary
+   - [Threat Manager](../csp/threat) allows configuring the detection of rooting and applying a countermeasure for a rooted device
 
-   - [Camera](../csp/camera) support for disabling a picture taken via the imager
+   - [UI Manager](../csp/ui) allows network monitored messages
 
-   - [Analytics](../csp/analyticsmgr)
-
-   - [Condition](../csp/condition) support for validating the device model, Android version, MX version, and OS version
-
-* Updated [OS Update Wizard](../Profiles/osupdate?Performing%20an%20Incremental%20OS%20Update) to support conditional and incremental OS update    
-
-* [Troubleshooting](../troubleshooting)

@@ -115,9 +115,9 @@ Select one of the following Wizards and select Create.
 
 After completing the StageNow Config and RD Config sections of the Wizard, proceed to the next section of the Wizard.  Certain Wizards include a Deployment section, whereas others proceed to the Review section.
 
-### MX 6.0 Selection
+### MX 6.X Selection
 
-Selecting MX 6.0 from the MX version drop-down menu supports a Wi-Fi hotspot option for some Wizards. If you select MX 6.0 for the applicable Wizards, the first Wizard window prompts you to select one of the following options from the drop-down menu:
+Selecting MX 6.X from the MX version drop-down menu supports a Wi-Fi hotspot option for some Wizards. If you select MX 6.X for the applicable Wizards, the first Wizard window prompts you to select one of the following options from the drop-down menu:
 
 * The devices I wish to provision are currently not connected to a network. I will define a network with this profile that will be used for staging.
 
@@ -379,4 +379,4 @@ To delete a profile:
 
 ## Upgrading Profiles
 
-StageNow 2.3 and later allow the administrator to upgrade profiles created in any released or beta StageNow version to the latest version, i.e., StageNow 2.4.
+StageNow 2.3 and later allow the administrator to upgrade profiles created in any released or beta StageNow version to the latest version, i.e., StageNow 2.5.
