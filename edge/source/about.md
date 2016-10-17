@@ -43,13 +43,16 @@ The following topics are added or updated for StageNow 2.5:
 
 * Support for [MX 6.1](../stagingprofiles?MX%206.X%20Selection) which adds functionality to the following setting types:
 
+   - [Analytics Manager](../csp/analyticsmgr) allows enabling and disabling the data collection metrics for the subsystem as a whole
+
    - [Bluetooth Manager](../csp/bluetoothmgr) allows enabling and disabling Bluetooth discoverability
 
    - [GPRS Manager](../csp/gprs) supports adding APN and setting certain parameters including proxy server/port
 
    - [Persist Manager](../csp/persistence) supports device Lockdown after an enterprise reset
 
-   - [Threat Manager](../csp/threat) allows configuring the detection of rooting and applying a countermeasure for a rooted device
+   - [Threat Manager](../csp/threat) supports periodic scan and folder monitoring
 
-   - [UI Manager](../csp/ui) allows network monitored messages
+   - [UI Manager](../csp/ui) allows enabling and disabling network monitored messages
 
+   - [Wireless Manager](../csp/wireless) allows enabling and disabling Set GPS Location Mode
