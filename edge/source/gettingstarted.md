@@ -20,7 +20,27 @@ The StageNow Staging Solution includes the following components:
 * The StageNow Client resides on the device and provides a user interface for the staging operator to initiate staging. The operator uses a staging method, e.g., prints and scans a bar code, plays an audio file, or reads an NFC tag, to deliver staging material to the device
 
 ### Devices Supported
-StageNow supports all Marshmallow, Lollipop, KitKat, and Jelly Bean Android devices from Zebra. Marshmallow, Lollipop, and KitKat devices that ship with the StageNow Client installed support all StageNow features.
+Following is a list of the Zebra Android devices and versions that StageNow supports. 
+
+* TC70 (Non-rebranded): KitKat
+* TC55:	KitKat, Jelly Bean
+* MC40: Lollipop, KitKat, Jelly Bean
+* MC67NA: KitKat
+* MC92: KitKat
+* MC18: KitKat
+* MC32: KitKat
+* TC70: Lollipop, KitKat
+* TC75: Lollipop, KitKat
+* TC8000: Lollipop, KitKat
+* WT6000: Lollipop
+* ET51: Lollipop
+* ET55: Lollipop
+* TC51: Marshmallow
+* TC56: Marshmallow
+* TC70X: Marshmallow
+* TC75X: Marshmallow
+
+Marshmallow, Lollipop, and KitKat devices that ship with the StageNow Client installed support all StageNow features.
 
 Jelly Bean and certain KitKat devices may not include the StageNow Client but do include Rapid Deployment (RD) Client. For staging, these devices can scan StageNow-generated RD bar codes, which cause the RD Client to connect to a network and then auto-install MX 5.0 for KitKat devices, MX 4.4 or lesser for Jelly Bean devices, and the StageNow Client on the device. The StageNow Client can then be used to scan StageNow profile bar codes for configuration. See [Rapid Deployment (RD) Client](../stageclient?Rapid%20Deployment%20(RD)%20Client) for more information on this process.
 
