@@ -131,7 +131,7 @@ If the Wi-Fi hotspot is off, you can turn it on via the button on the heading ba
 By default, the StageNow Tool enables the Wi-Fi hotspot upon launch. You can disable the hotspot upon launch via the [Settings](../gettingstarted?Settings) menu. 
 
 #### Admin Privileges Required
-If the Wi-Fi hotspot is disabled upon launching the StageNow Tool, turning in it on for the first time invokes the User Account Control window. This window does not appear again until the tool is closed and re-opened.
+If the Wi-Fi hotspot is disabled upon launching the StageNow Tool, turning it on for the first time invokes the User Account Control window. This window does not appear again until the tool is closed and re-opened.
 
 ![img](images/wifi_controlwindow.jpg)
 
