@@ -39,4 +39,4 @@ The following topics are added or updated for StageNow 2.6:
 
 * Support for [MX 6.2](../stagingprofiles?MX%206.X%20Selection) which adds the new setting type [Ethernet Manager](../csp/ethernetmgr)
 
-* Support for plug-in CSPs
+* Setting type updates
